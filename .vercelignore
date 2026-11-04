@@ -1,0 +1,13 @@
+.openai/
+.sites-runtime/
+.wrangler/
+.vinext/
+.next/
+dist/
+outputs/
+qa/
+research/
+node_modules/
+.env*
+.dev.vars*
+*.pem

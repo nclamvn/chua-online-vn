@@ -40,3 +40,9 @@ Bộ tích hợp cần server cục bộ đang chạy và sân `hien-an-03` tr�
 - `scripts/` chứa lệnh build và kiểm tra.
 
 Ba sân chung hỗ trợ tối đa 200 phiên đang hoạt động mỗi sân. Chế độ Ngày hội lớn thêm tối đa 1.000 nhân vật mô phỏng trên trình duyệt. Phiếu lễ, vé hội và quẻ là nội dung mô phỏng. Thông tin nguồn và giấy phép tài nguyên nằm trong [trang ghi công](public/credits.html).
+
+## Triển khai Vercel
+
+Vercel phục vụ giao diện trong `public/`. Hai nhóm API `/api/presence/` và
+`/api/offerings/` đi qua hàm Vercel tới Worker Hiên An hiện có, dùng chung D1
+với bản trên Sites. Cấu hình này cần Worker đó tiếp tục hoạt động.
