@@ -1,4 +1,4 @@
-import { readJsonObject } from '../../lib/request-json';
+import { readJsonObject } from '../../lib/request-json.js';
 
 const upstream = new URL('https://hien-an-r4.nclamvn.chatgpt.site');
 const presenceActions = new Set(['join', 'leave', 'greet', 'greetings', 'observe', 'rooms', 'stream', 'sync']);

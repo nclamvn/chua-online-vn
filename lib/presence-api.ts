@@ -1,4 +1,4 @@
-import {isJsonObject,readJsonObject} from './request-json';
+import {isJsonObject,readJsonObject} from './request-json.js';
 import {packPlayer} from '../public/presence-wire.js';
 import {arrivalPoints,destinationPoints,BODY_DISTANCE} from '../public/body-collision.js';
 import {clearSegment} from '../public/pathfinding.js';

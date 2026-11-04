@@ -1,6 +1,6 @@
 import {env} from 'cloudflare:workers';
 import {ROOMS} from '../../../../public/world-rules.js';
-import {readJsonObject} from '../../../../lib/request-json';
+import {readJsonObject} from '../../../../lib/request-json.js';
 type ReceiptRow = {id:string;kind:string;day:string;slot:number;status:string;room:string;created_at:number};
 const kinds=['flowers','lotus','tea','memorial'];
 const headers={'Content-Type':'application/json','Cache-Control':'no-store, private'};
