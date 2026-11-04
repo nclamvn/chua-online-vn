@@ -1,0 +1,139 @@
+{
+  "treeSource": "https://polyhaven.com/a/island_tree_01",
+  "treeLicense": "CC0-1.0",
+  "grassSource": "https://ambientcg.com/view?id=Grass001",
+  "grassLicense": "CC0-1.0",
+  "sourceLeafCount": 44168,
+  "sourceLeafSurfaceArea": 35.08605476126189,
+  "sourceUVTemplates": 8,
+  "baseCardEstimatedOpaqueArea": 27.32761279426264,
+  "coverageMethod": "Source leaf UV silhouettes rasterized into atlas alpha, one oriented affine UV card per original near leaf. Far deterministic15000-leaf sample enlarged to match estimated opaque surface area. This area metric is a proxy, not a rendered silhouette guarantee.",
+  "alphaMode": "MASK",
+  "alphaCutoff": 0.35,
+  "lods": {
+    "near": {
+      "url": "/assets/r4/vegetation/island-tree-near.glb",
+      "bytes": 2801384,
+      "sha256": "7ee5a02e28d7b0ba227f7d0ecefadad1de6cfe6708bea6d13a8265d876043a85",
+      "externalTextures": true,
+      "triangles": 191907,
+      "counts": [
+        {
+          "material": "island_tree_01",
+          "triangles": 8695
+        },
+        {
+          "material": "island_tree_01_branches",
+          "triangles": 94876
+        },
+        {
+          "material": "island_tree_01_leaves",
+          "triangles": 88336
+        }
+      ],
+      "leafCount": 44168,
+      "cardLinearScale": 1.1991553020292094,
+      "estimatedOpaqueSurfaceArea": 39.29638133261333
+    },
+    "far": {
+      "url": "/assets/r4/vegetation/island-tree-far.glb",
+      "bytes": 733880,
+      "sha256": "244ec0353f2013c6822e2e992ed731b49b480d721d0db8a982a98a8b9eb19f52",
+      "externalTextures": true,
+      "triangles": 36236,
+      "counts": [
+        {
+          "material": "island_tree_01",
+          "triangles": 2086
+        },
+        {
+          "material": "island_tree_01_branches",
+          "triangles": 4150
+        },
+        {
+          "material": "island_tree_01_leaves",
+          "triangles": 30000
+        }
+      ],
+      "leafCount": 15000,
+      "cardLinearScale": 2.0614888015991264,
+      "estimatedOpaqueSurfaceArea": 39.29638133261333
+    }
+  },
+  "grass": [
+    {
+      "url": "/assets/r4/vegetation/grass/diffuse.jpg",
+      "bytes": 393307,
+      "sha256": "ff376f42942e46b39703036f574b75a55369aa604f2bdf461db5a3b118800a1b"
+    },
+    {
+      "url": "/assets/r4/vegetation/grass/normal-gl.jpg",
+      "bytes": 857962,
+      "sha256": "68454b7c5c20a4d958bbae2d33923744dee9aead09d1ed123599b38b378dd501"
+    },
+    {
+      "url": "/assets/r4/vegetation/grass/roughness.jpg",
+      "bytes": 393971,
+      "sha256": "4d8c67051e6d6b4a9c8191a7447db72c0654ebd85540a126401ace07df6fc1d0"
+    }
+  ],
+  "totalBytes": 8052704,
+  "files": [
+    {
+      "name": "island-tree-far.glb",
+      "bytes": 733880,
+      "sha256": "244ec0353f2013c6822e2e992ed731b49b480d721d0db8a982a98a8b9eb19f52"
+    },
+    {
+      "name": "island-tree-near.glb",
+      "bytes": 2801384,
+      "sha256": "7ee5a02e28d7b0ba227f7d0ecefadad1de6cfe6708bea6d13a8265d876043a85"
+    },
+    {
+      "name": "island_tree_01_arm_1k.jpg",
+      "bytes": 256506,
+      "sha256": "46aa9554ab9b2224242b78fc8adc1be33fa08c9c888dc30e0ab4ed21014c603d"
+    },
+    {
+      "name": "island_tree_01_branches_arm_1k.jpg",
+      "bytes": 151351,
+      "sha256": "d3a869694cd32a9b4fa6a96a6e923e0313650954b054e7db03f22194118f2e37"
+    },
+    {
+      "name": "island_tree_01_branches_diff_1k.jpg",
+      "bytes": 183453,
+      "sha256": "de64a29d0c65266e242905ea42a518345d068c09e12390e68d59de8150f3645d"
+    },
+    {
+      "name": "island_tree_01_branches_nor_gl_1k.jpg",
+      "bytes": 374167,
+      "sha256": "ad295c63133b94f5136b4fb449df477ccb0d0f8e25a4c8a8b72f94f9e9fbffb0"
+    },
+    {
+      "name": "island_tree_01_diff_1k.jpg",
+      "bytes": 267610,
+      "sha256": "29210db269190d3f480ebb30aa82e86079a864ab47552a11ad4e1dea19b42cc9"
+    },
+    {
+      "name": "island_tree_01_leaves_arm_1k.jpg",
+      "bytes": 182172,
+      "sha256": "6b69e547978d9844b3b2b496b045aa1dc7d7a8ac30a579490c101fd474387bb1"
+    },
+    {
+      "name": "island_tree_01_leaves_nor_gl_1k.jpg",
+      "bytes": 156220,
+      "sha256": "cc995daa4b3ac4216903c38a1bf07040240811225c688fa4bb79f5b8c03813f8"
+    },
+    {
+      "name": "island_tree_01_nor_gl_1k.jpg",
+      "bytes": 594411,
+      "sha256": "0d37cde5a05ce09ed5dbd7d364355431727aee618844c87748874c75bfc9e7fd"
+    },
+    {
+      "name": "leaf-atlas.png",
+      "bytes": 706310,
+      "sha256": "e6ab274af302b468a0276ac1550f8052ac210135dca7acde474483201976607f"
+    }
+  ],
+  "decoder": "/assets/r3/meshopt_decoder.module.js"
+}

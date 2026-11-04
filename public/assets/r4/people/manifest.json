@@ -1,0 +1,1780 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "source": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+  "sourceGeometry": "https://github.com/makehumancommunity/makehuman",
+  "jointAliases": {
+    "pelvis": "root",
+    "spine": "spine02",
+    "chest": "spine01",
+    "neck": "neck01",
+    "head": "head",
+    "left": {
+      "shoulder": "shoulder01.L",
+      "upperArm": "upperarm01.L",
+      "upperArmTwist": "upperarm02.L",
+      "elbow": "lowerarm01.L",
+      "forearmTwist": "lowerarm02.L",
+      "hand": "wrist.L",
+      "hip": "upperleg01.L",
+      "thighTwist": "upperleg02.L",
+      "knee": "lowerleg01.L",
+      "shinTwist": "lowerleg02.L",
+      "foot": "foot.L"
+    },
+    "right": {
+      "shoulder": "shoulder01.R",
+      "upperArm": "upperarm01.R",
+      "upperArmTwist": "upperarm02.R",
+      "elbow": "lowerarm01.R",
+      "forearmTwist": "lowerarm02.R",
+      "hand": "wrist.R",
+      "hip": "upperleg01.R",
+      "thighTwist": "upperleg02.R",
+      "knee": "lowerleg01.R",
+      "shinTwist": "lowerleg02.R",
+      "foot": "foot.R"
+    }
+  },
+  "coordinateConvention": {
+    "units": "meters",
+    "bodyHeight": 1.72,
+    "feetY": 0,
+    "up": "+Y",
+    "front": "+Z",
+    "modularHeadAndHair": "Local coordinates centered on the profile headAttachment; add headAttachment to place in full-body coordinates",
+    "outfits": "Full-body coordinates, feet y=0; fitted against each profile target morph",
+    "rig": "163 official CC0 named bone weights, top4 influences normalized. Clothing weights transferred via mhclo barycentric bindings. Local rest rotations identity/world axes, inverse binds preserve exact rest surface.",
+    "decoder": "/assets/r3/meshopt_decoder.module.js"
+  },
+  "profiles": [
+    {
+      "id": "an",
+      "label": "An",
+      "genderPresentation": "male",
+      "ageGroup": "young",
+      "morphs": [
+        {
+          "target": "asian-male-young",
+          "weight": 1
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/an-head.glb",
+        "bytes": 57996,
+        "sha256": "41382f520269a149e6d3c481ec4f7b1eb7b21af1e03526f1bc4f5e0c8a616d78",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.09076926856230423,
+            0.09076926856230423
+          ],
+          [
+            -0.1457241294601732,
+            0.1457241294601732
+          ],
+          [
+            -0.11368605293864766,
+            0.11368605293864766
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-young.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-male-young.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/an-hair.glb",
+        "bytes": 40116,
+        "sha256": "2740fa6724aca06eecb7f6bc8f5fa18e094f138c7a574bb2378f6526d4102f3f",
+        "triangles": 3678,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.08263831272812729,
+            0.07964818536321966
+          ],
+          [
+            -0.06133480500856803,
+            0.16337971979884114
+          ],
+          [
+            -0.12627230392633465,
+            0.09176530033430459
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "short01_diffuse.png"
+        ],
+        "style": "short01",
+        "diffuse": "/assets/r4/people/short01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/an-outfit.glb",
+        "bytes": 103528,
+        "sha256": "e5fd8c380c011280f071490efc45e36e4a5d445f8c6ff201f459baadec591634",
+        "triangles": 16672,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.5170204886474663,
+            0.513348626310275
+          ],
+          [
+            0.069495199323169,
+            1.5080253261950451
+          ],
+          [
+            -0.13545673206527745,
+            0.22705989797538223
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/male_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/male_casualsuit01_normal.jpg",
+        "sourceOutfit": "male_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/an-person.glb",
+        "bytes": 289704,
+        "sha256": "e65cc7db4690b71503bcea3442e76ca3cb83ee1b66a7ba6839c6bb70ac12e65b",
+        "triangles": 28029,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5627736903519007,
+            0.5627736903519007
+          ],
+          [
+            0,
+            1.737655590338668
+          ],
+          [
+            -0.13545673206527745,
+            0.36365804827120307
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-young.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "short01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/an-person-far.glb",
+        "bytes": 84552,
+        "sha256": "45194f99f2771d518ebd9fbab1ed75158d2fa107eaa6755ef96ceebaa6a82e2e",
+        "triangles": 4010,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5627736903519007,
+            0.5627736903519007
+          ],
+          [
+            0,
+            1.737655590338668
+          ],
+          [
+            -0.13545673206527745,
+            0.36365804827120307
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-young.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "short01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/an-joints.json",
+      "headAttachment": [
+        0,
+        1.574276,
+        0.049187
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 16.283,
+      "sourceBodyBounds": [
+        [
+          -5.3277,
+          5.3277
+        ],
+        [
+          -8.187700000000001,
+          8.0953
+        ],
+        [
+          -1.0084000000000002,
+          3.4427000000000003
+        ]
+      ],
+      "scaleFromSource": 0.1056316403611128,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "ha",
+      "label": "Hà",
+      "genderPresentation": "female",
+      "ageGroup": "young",
+      "morphs": [
+        {
+          "target": "asian-female-young",
+          "weight": 1
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/ha-head.glb",
+        "bytes": 58032,
+        "sha256": "c7d658d72a895aeb981d48e62b7a6983933464167422318db6298d371f9d8206",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.09214121238085038,
+            0.09214121238085038
+          ],
+          [
+            -0.13540256506372494,
+            0.13540256506372494
+          ],
+          [
+            -0.1048231498339938,
+            0.1048231498339938
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-young.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-female-young.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/ha-hair.glb",
+        "bytes": 48744,
+        "sha256": "3e9115bd50a95de7dacf174513a2a344530fbec6c71059c09685a741769e9cbb",
+        "triangles": 5352,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.0821661361598785,
+            0.0812891579689532
+          ],
+          [
+            -0.2612830582690471,
+            0.14345051561970856
+          ],
+          [
+            -0.18891816737958778,
+            0.08026262034709267
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "ponytail01_diffuse.png"
+        ],
+        "style": "ponytail01",
+        "diffuse": "/assets/r4/people/ponytail01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/ha-outfit.glb",
+        "bytes": 31012,
+        "sha256": "9fbb21237f5cbbc79a31c63ce54441f35e2e65976c103c9b52e9078320145175",
+        "triangles": 4236,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.29220566743671966,
+            0.2891182967176483
+          ],
+          [
+            0.08704285155646252,
+            1.4643682596551353
+          ],
+          [
+            -0.10053313840611702,
+            0.17098605280791376
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/female_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/female_casualsuit01_normal.jpg",
+        "sourceOutfit": "female_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/ha-person.glb",
+        "bytes": 280360,
+        "sha256": "91bade7ad17a4baf7b108e251461e83c2d11aef4c66f1df917a93175ae37f8b0",
+        "triangles": 27995,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5257794259398093,
+            0.5257794259398093
+          ],
+          [
+            0,
+            1.7280479505559836
+          ],
+          [
+            -0.1291121536706877,
+            0.315085412873514
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-young.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "ponytail01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/ha-person-far.glb",
+        "bytes": 84324,
+        "sha256": "22f6726b52f14dd26b39edcd0711d048f9900d79a14247a7f7dabf5ec397635e",
+        "triangles": 4010,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5257794259398093,
+            0.5257794259398093
+          ],
+          [
+            0,
+            1.7280479505559836
+          ],
+          [
+            -0.1291121536706877,
+            0.315085412873514
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-young.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "ponytail01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/ha-joints.json",
+      "headAttachment": [
+        0,
+        1.584597,
+        0.059806
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 14.9392,
+      "sourceBodyBounds": [
+        [
+          -4.5667,
+          4.5667
+        ],
+        [
+          -8.162899999999999,
+          6.776300000000001
+        ],
+        [
+          -0.8592000000000001,
+          2.7367
+        ]
+      ],
+      "scaleFromSource": 0.11513334047338546,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "minh",
+      "label": "Minh",
+      "genderPresentation": "male",
+      "ageGroup": "middle",
+      "morphs": [
+        {
+          "target": "asian-male-young",
+          "weight": 0.6
+        },
+        {
+          "target": "asian-male-old",
+          "weight": 0.4
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/minh-head.glb",
+        "bytes": 57992,
+        "sha256": "f8ca08a4c3bbcef899f165de7a789a87840bb46a08c1147a90c91f6655cee811",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.0900115097585426,
+            0.0900115097585426
+          ],
+          [
+            -0.14672504053167668,
+            0.14672504053167645
+          ],
+          [
+            -0.11418806697936906,
+            0.11418806697936906
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-middle.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-male-middle.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/minh-hair.glb",
+        "bytes": 40160,
+        "sha256": "92ea8bad1b586ef7d197728607057ce2405d1eb244d2b36309bdb764a519d204",
+        "triangles": 3678,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.08360981792255645,
+            0.08052706868508372
+          ],
+          [
+            -0.056929268868119776,
+            0.16474076461832277
+          ],
+          [
+            -0.1268397809300974,
+            0.0940583793281411
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "short01_diffuse.png"
+        ],
+        "style": "short01",
+        "diffuse": "/assets/r4/people/short01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/minh-outfit.glb",
+        "bytes": 103540,
+        "sha256": "7a95824856c59c5561e2e1a44e12ac05eaf5c12b716df2a66e20de40933aed3a",
+        "triangles": 16672,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.5080226944126122,
+            0.5042440761160263
+          ],
+          [
+            0.06928080356896721,
+            1.5147515660801192
+          ],
+          [
+            -0.14515176531303234,
+            0.22099075603403165
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/male_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/male_casualsuit01_normal.jpg",
+        "sourceOutfit": "male_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/minh-person.glb",
+        "bytes": 289980,
+        "sha256": "d7e32f39b634907662ca4db6a37da8d83d0d858a77acd3e813486cde8d98faee",
+        "triangles": 28036,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5477642603433126,
+            0.5477642603433126
+          ],
+          [
+            0,
+            1.7380157240866463
+          ],
+          [
+            -0.14515176531303234,
+            0.346496949295182
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-middle.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "short01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/minh-person-far.glb",
+        "bytes": 84328,
+        "sha256": "99b89b9153753bf94ccc899e1e5ddd678f3d169ad6222cfda670a8194161b7d9",
+        "triangles": 4011,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5477642603433126,
+            0.5477642603433126
+          ],
+          [
+            0,
+            1.7380157240866463
+          ],
+          [
+            -0.14515176531303234,
+            0.346496949295182
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-middle.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "short01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/minh-joints.json",
+      "headAttachment": [
+        0,
+        1.573275,
+        0.046091
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 16.1602,
+      "sourceBodyBounds": [
+        [
+          -5.1465000000000005,
+          5.1465000000000005
+        ],
+        [
+          -8.1965,
+          7.9637
+        ],
+        [
+          -1.0156,
+          3.2555
+        ]
+      ],
+      "scaleFromSource": 0.10643432630784272,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "mai",
+      "label": "Mai",
+      "genderPresentation": "female",
+      "ageGroup": "middle",
+      "morphs": [
+        {
+          "target": "asian-female-young",
+          "weight": 0.6
+        },
+        {
+          "target": "asian-female-old",
+          "weight": 0.4
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/mai-head.glb",
+        "bytes": 58084,
+        "sha256": "b294cb400c247559d0c8e421353c8e505d1faed78da27fa40313accecd4c1c07",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.09066049631120053,
+            0.09066049631120053
+          ],
+          [
+            -0.1346756539235412,
+            0.13467565392354142
+          ],
+          [
+            -0.10327498323272973,
+            0.10327498323272971
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-middle.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-female-middle.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/mai-hair.glb",
+        "bytes": 71876,
+        "sha256": "d69a171ace40a1497536c66e4a8089d9e03da6566feeb7328c1598d9cb61b21a",
+        "triangles": 8474,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.12360913977287474,
+            0.10537380981248098
+          ],
+          [
+            -0.10478966291945357,
+            0.15659223453678095
+          ],
+          [
+            -0.13931074983909256,
+            0.1184945579708361
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "bob01_diffuse.png"
+        ],
+        "style": "bob01",
+        "diffuse": "/assets/r4/people/bob01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/mai-outfit.glb",
+        "bytes": 30964,
+        "sha256": "30f2fd7d80c3ce112a1b240dc8f1dec36c9a539f5771f49458fc58dc979804e8",
+        "triangles": 4236,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.2833185733564151,
+            0.27908002666166576
+          ],
+          [
+            0.09032730416364859,
+            1.4715878411052985
+          ],
+          [
+            -0.0960840274838421,
+            0.17314348530711401
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/female_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/female_casualsuit01_normal.jpg",
+        "sourceOutfit": "female_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/mai-person.glb",
+        "bytes": 282324,
+        "sha256": "4916a0ec1e4eef9c3eaa891eecb121677fd973e6b17cad85b04d6089a8b20480",
+        "triangles": 28008,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5232560697518445,
+            0.5232560697518445
+          ],
+          [
+            0,
+            1.7419165806132395
+          ],
+          [
+            -0.0960840274838421,
+            0.3469416498993964
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-middle.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "bob01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/mai-person-far.glb",
+        "bytes": 91144,
+        "sha256": "253759e37853fe4e4715fd94cfe2e02cf9c24a429e28a4311af6805043e8cd6e",
+        "triangles": 4836,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5232560697518445,
+            0.5232560697518445
+          ],
+          [
+            0,
+            1.7419165806132395
+          ],
+          [
+            -0.0960840274838421,
+            0.3469416498993964
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-middle.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "bob01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/mai-joints.json",
+      "headAttachment": [
+        0,
+        1.585324,
+        0.074874
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 14.91,
+      "sourceBodyBounds": [
+        [
+          -4.535900000000001,
+          4.535900000000001
+        ],
+        [
+          -8.1789,
+          6.7311000000000005
+        ],
+        [
+          -0.8198000000000001,
+          3.0075000000000003
+        ]
+      ],
+      "scaleFromSource": 0.1153588195841717,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "lam",
+      "label": "Lâm",
+      "genderPresentation": "male",
+      "ageGroup": "elder",
+      "morphs": [
+        {
+          "target": "asian-male-old",
+          "weight": 1
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/lam-head.glb",
+        "bytes": 58132,
+        "sha256": "457742152a2557ed6a0dec7c366ce75ffac39e0306b9ca8a0ef8570f6b1148c0",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.08884746823558864,
+            0.08884746823558864
+          ],
+          [
+            -0.1482459785942294,
+            0.14824597859422917
+          ],
+          [
+            -0.11551355072917316,
+            0.11551355072917316
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-elder.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-male-elder.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": null,
+      "clothing": {
+        "url": "/assets/r4/people/lam-outfit.glb",
+        "bytes": 103808,
+        "sha256": "925734353a9c342d80c93ffd54961c07aa6067eadeeaad21769aa162cab88884",
+        "triangles": 16672,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.4942357101237213,
+            0.4902941274213061
+          ],
+          [
+            0.06905636907550344,
+            1.5250654791594995
+          ],
+          [
+            -0.16220569112331576,
+            0.21286536064205877
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/male_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/male_casualsuit01_normal.jpg",
+        "sourceOutfit": "male_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/lam-person.glb",
+        "bytes": 274952,
+        "sha256": "8f1eaef0680e291b97d520e5c9791f74859109819f5e8a8dc00478a734ca0f03",
+        "triangles": 28022,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.5247846279026099,
+            0.5247846279026099
+          ],
+          [
+            0,
+            1.72
+          ],
+          [
+            -0.16220569112331576,
+            0.3202405958565438
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-elder.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/lam-person-far.glb",
+        "bytes": 78364,
+        "sha256": "5a64f8f16bfb35dedde65ded963b656fc46593dd92ff66a79bdaf9984e179c26",
+        "triangles": 4009,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.5247846279026099,
+            0.5247846279026099
+          ],
+          [
+            0,
+            1.72
+          ],
+          [
+            -0.16220569112331576,
+            0.3202405958565438
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-elder.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg"
+        ]
+      },
+      "joints": "/assets/r4/people/lam-joints.json",
+      "headAttachment": [
+        0,
+        1.571754,
+        0.04079
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 15.977,
+      "sourceBodyBounds": [
+        [
+          -4.8747,
+          4.8747
+        ],
+        [
+          -8.2107,
+          7.766300000000001
+        ],
+        [
+          -1.1149,
+          2.9747000000000003
+        ]
+      ],
+      "scaleFromSource": 0.1076547537084559,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "lan",
+      "label": "Lan",
+      "genderPresentation": "female",
+      "ageGroup": "elder",
+      "morphs": [
+        {
+          "target": "asian-female-old",
+          "weight": 1
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/lan-head.glb",
+        "bytes": 58300,
+        "sha256": "1ba0a8a1931d5832d6cbd918131e1117369741b4011fae9c6700e7d7d2cf1ae2",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.08842851569331774,
+            0.08842851569331774
+          ],
+          [
+            -0.13401380312386468,
+            0.1340138031238649
+          ],
+          [
+            -0.10112066298045232,
+            0.10112066298045232
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-elder.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-female-elder.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/lan-hair.glb",
+        "bytes": 55468,
+        "sha256": "dbf5354af9d69a63b27f1351922cb3f742711aeeb2513d7d4c0624e88394bd5c",
+        "triangles": 5518,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.10251878259622808,
+            0.10033346344686547
+          ],
+          [
+            -0.46958862028240334,
+            0.14713529942647607
+          ],
+          [
+            -0.17754161774693922,
+            0.09978428705381277
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "braid01_diffuse.png"
+        ],
+        "style": "braid01",
+        "diffuse": "/assets/r4/people/braid01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/lan-outfit.glb",
+        "bytes": 31052,
+        "sha256": "6ad3c9c6c7bc799b0a40447ceba0d83f25d0747a44e9193dc285b9733f0e4984",
+        "triangles": 4236,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.269922472548762,
+            0.26394868267123767
+          ],
+          [
+            0.09286431781630514,
+            1.4843048695384953
+          ],
+          [
+            -0.09041257837941487,
+            0.17973304536098875
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/female_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/female_casualsuit01_normal.jpg",
+        "sourceOutfit": "female_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/lan-person.glb",
+        "bytes": 285628,
+        "sha256": "b0047cbecc6b01fe4ce5932853f64f5237101f7d671a8111c575d988e6ae56f3",
+        "triangles": 27998,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5194524491800192,
+            0.5194524491800192
+          ],
+          [
+            0,
+            1.7331214963026111
+          ],
+          [
+            -0.09041257837941487,
+            0.39496064898898176
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-elder.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "braid01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/lan-person-far.glb",
+        "bytes": 86468,
+        "sha256": "1b0e92982a5e4bbbba67329241d9877c56c0781a42751492da545ad3143d808c",
+        "triangles": 4216,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5194524491800192,
+            0.5194524491800192
+          ],
+          [
+            0,
+            1.7331214963026111
+          ],
+          [
+            -0.09041257837941487,
+            0.39496064898898176
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-elder.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "braid01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/lan-joints.json",
+      "headAttachment": [
+        0,
+        1.585986,
+        0.097407
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 14.8662,
+      "sourceBodyBounds": [
+        [
+          -4.4897,
+          4.4897
+        ],
+        [
+          -8.2029,
+          6.6633000000000004
+        ],
+        [
+          -0.7861,
+          3.4137
+        ]
+      ],
+      "scaleFromSource": 0.11569869906230242,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "tuan",
+      "label": "Tuấn",
+      "genderPresentation": "male",
+      "ageGroup": "young",
+      "morphs": [
+        {
+          "target": "asian-male-young",
+          "weight": 1
+        },
+        {
+          "target": "head-round",
+          "weight": 0.25
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/tuan-head.glb",
+        "bytes": 58012,
+        "sha256": "340ca0da9c39278ba0590b8388ec7c1f3d58e30f99bedc162fc79b79bd15227a",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.0936283501352348,
+            0.0936283501352348
+          ],
+          [
+            -0.1450655274157855,
+            0.1450655274157857
+          ],
+          [
+            -0.11379087779690189,
+            0.11379087779690189
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-young.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-male-young.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/tuan-hair.glb",
+        "bytes": 40160,
+        "sha256": "3527c9ee7f31f7f0c6ee0bd339253372f18cb8707cbb50ab7cfa194b620e8959",
+        "triangles": 3678,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.08389758142972227,
+            0.08199547471854322
+          ],
+          [
+            -0.06059826265715795,
+            0.16263719877777705
+          ],
+          [
+            -0.12631789153615725,
+            0.09117328396086008
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "short01_diffuse.png"
+        ],
+        "style": "short01",
+        "diffuse": "/assets/r4/people/short01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/tuan-outfit.glb",
+        "bytes": 103548,
+        "sha256": "b02addd77ad79d7b3beede004753a127b80954d5ad0fdeb874714105f391332e",
+        "triangles": 16672,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.5175834922420173,
+            0.5138177861942792
+          ],
+          [
+            0.06956911664035,
+            1.509415710627706
+          ],
+          [
+            -0.1355019985119089,
+            0.2272694073034906
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/male_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/male_casualsuit01_normal.jpg",
+        "sourceOutfit": "male_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/tuan-person.glb",
+        "bytes": 289620,
+        "sha256": "a74d7be36d5ff030f7532d7bc4b95ad4ef1e119f042ad57b57d372aaaabd3191",
+        "triangles": 28030,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5632925989672977,
+            0.5632925989672977
+          ],
+          [
+            0,
+            1.7375716713619913
+          ],
+          [
+            -0.1355019985119089,
+            0.36399336119990167
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-young.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "short01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/tuan-person-far.glb",
+        "bytes": 84392,
+        "sha256": "708d7ca2204096344032129437eb74d51129dc18c3f610cb26557b468557f706",
+        "triangles": 4011,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5632925989672977,
+            0.5632925989672977
+          ],
+          [
+            0,
+            1.7375716713619913
+          ],
+          [
+            -0.1355019985119089,
+            0.36399336119990167
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-male-young.jpg",
+          "male_casualsuit01_diffuse.jpg",
+          "male_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "short01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/tuan-joints.json",
+      "headAttachment": [
+        0,
+        1.574934,
+        0.049233
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 16.268,
+      "sourceBodyBounds": [
+        [
+          -5.3277,
+          5.3277
+        ],
+        [
+          -8.187700000000001,
+          8.0803
+        ],
+        [
+          -1.0084000000000002,
+          3.4427000000000003
+        ]
+      ],
+      "scaleFromSource": 0.10572903860339315,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "thao",
+      "label": "Thảo",
+      "genderPresentation": "female",
+      "ageGroup": "young",
+      "morphs": [
+        {
+          "target": "asian-female-young",
+          "weight": 1
+        },
+        {
+          "target": "head-oval",
+          "weight": 0.35
+        }
+      ],
+      "head": {
+        "url": "/assets/r4/people/thao-head.glb",
+        "bytes": 57988,
+        "sha256": "158744494f733de5a094e289c3c8e495a46b98e717a89e3a6f9cb332c7302035",
+        "triangles": 8744,
+        "meshParts": [
+          "head",
+          "eyes"
+        ],
+        "bounds": [
+          [
+            -0.09613587118012547,
+            0.09613587118012547
+          ],
+          [
+            -0.1371806796897692,
+            0.1371806796897692
+          ],
+          [
+            -0.10436493177394424,
+            0.10436493177394424
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-young.jpg",
+          "brown_eye.jpg"
+        ],
+        "diffuse": "/assets/r4/people/skin-female-young.jpg",
+        "skinMapResolution": [
+          2048,
+          2048
+        ]
+      },
+      "hair": {
+        "url": "/assets/r4/people/thao-hair.glb",
+        "bytes": 71864,
+        "sha256": "5517f53d1756a2c029dfcfb9850b98fb067154bca065736015e8a58d0ed0d6de",
+        "triangles": 8474,
+        "meshParts": [
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.13008120255956596,
+            0.11191481719122374
+          ],
+          [
+            -0.10963900524420223,
+            0.15956769464686427
+          ],
+          [
+            -0.14040383245180427,
+            0.12000012711904351
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "bob01_diffuse.png"
+        ],
+        "style": "bob01",
+        "diffuse": "/assets/r4/people/bob01_diffuse.png",
+        "alphaMode": "MASK",
+        "alphaCutoff": 0.35,
+        "fit": "Official mhclo barycentric mapping plus per-axis offset scale, evaluated on this profile morph"
+      },
+      "clothing": {
+        "url": "/assets/r4/people/thao-outfit.glb",
+        "bytes": 31004,
+        "sha256": "7ec6284e9aecfab7949be51e3c28f333f9510910fb518daddbd7a82019da1780",
+        "triangles": 4236,
+        "meshParts": [
+          "clothing"
+        ],
+        "bounds": [
+          [
+            -0.29147858826475437,
+            0.2884510465875357
+          ],
+          [
+            0.0868221518495679,
+            1.4607088464097435
+          ],
+          [
+            -0.10028920637999379,
+            0.17057226059269415
+          ]
+        ],
+        "skinned": false,
+        "externalTextures": true,
+        "textureFiles": [
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg"
+        ],
+        "diffuse": "/assets/r4/people/female_casualsuit01_diffuse.jpg",
+        "normal": "/assets/r4/people/female_casualsuit01_normal.jpg",
+        "sourceOutfit": "female_casualsuit01"
+      },
+      "person": {
+        "url": "/assets/r4/people/thao-person.glb",
+        "bytes": 282052,
+        "sha256": "138352fc90ecac8356a6af1c9132d4c8afb762fa028f5065bf0749f36708b7d0",
+        "triangles": 28006,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5244891976802808,
+            0.5244891976802808
+          ],
+          [
+            0,
+            1.742387014957095
+          ],
+          [
+            -0.10028920637999379,
+            0.3143122139163125
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-young.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "bob01_diffuse.png"
+        ]
+      },
+      "far": {
+        "url": "/assets/r4/people/thao-person-far.glb",
+        "bytes": 90820,
+        "sha256": "6312d49ad6568a79726d5edca597052a0a9545b0bd830aa1a850e079addd385f",
+        "triangles": 4831,
+        "meshParts": [
+          "skin",
+          "clothing",
+          "eyes",
+          "hair"
+        ],
+        "bounds": [
+          [
+            -0.5244891976802808,
+            0.5244891976802808
+          ],
+          [
+            0,
+            1.742387014957095
+          ],
+          [
+            -0.10028920637999379,
+            0.3143122139163125
+          ]
+        ],
+        "skinned": true,
+        "externalTextures": true,
+        "textureFiles": [
+          "skin-female-young.jpg",
+          "female_casualsuit01_diffuse.jpg",
+          "female_casualsuit01_normal.jpg",
+          "brown_eye.jpg",
+          "bob01_diffuse.png"
+        ]
+      },
+      "joints": "/assets/r4/people/thao-joints.json",
+      "headAttachment": [
+        0,
+        1.582819,
+        0.05986
+      ],
+      "normalizedBodyHeight": 1.72,
+      "sourceBodyHeight": 14.97595,
+      "sourceBodyBounds": [
+        [
+          -4.5667,
+          4.5667
+        ],
+        [
+          -8.162899999999999,
+          6.8130500000000005
+        ],
+        [
+          -0.8592000000000001,
+          2.7367
+        ]
+      ],
+      "scaleFromSource": 0.11485081079998265,
+      "restPose": "MakeHuman neutral A-pose; +Z forward, +Y up",
+      "license": "CC0-1.0"
+    }
+  ],
+  "skinMaps": {
+    "male-young": {
+      "url": "/assets/r4/people/skin-male-young.jpg",
+      "bytes": 479982,
+      "sha256": "7591b15e1bf91eb62f6a3313c536b19371962d4acb8443ef2541c53d16c6a481",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sources": [
+        "skins/young_asian_male/young_lightskinned_male_diffuse3.png"
+      ]
+    },
+    "male-elder": {
+      "url": "/assets/r4/people/skin-male-elder.jpg",
+      "bytes": 618300,
+      "sha256": "26f9f73b02ea74d8ba641e03d7394bfc0c242a69943a6e3df94bb10765bff84e",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sources": [
+        "skins/old_asian_male/old_lightskinned_male_diffuse2.png"
+      ]
+    },
+    "male-middle": {
+      "url": "/assets/r4/people/skin-male-middle.jpg",
+      "bytes": 506746,
+      "sha256": "6107dfe5756f66f45f2fc0c6d32afc1ebd89f127cc98bbf609998a6c21262c44",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sources": [
+        "skins/young_asian_male/young_lightskinned_male_diffuse3.png",
+        "skins/old_asian_male/old_lightskinned_male_diffuse2.png"
+      ],
+      "blend": {
+        "young": 0.6,
+        "elder": 0.4
+      }
+    },
+    "female-young": {
+      "url": "/assets/r4/people/skin-female-young.jpg",
+      "bytes": 444009,
+      "sha256": "e9a10383049c9fd9eb5731c9eb737a24eb3dc97489e3be65aa37df4b8787e24e",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sources": [
+        "skins/young_asian_female/young_lightskinned_female_diffuse3.png"
+      ]
+    },
+    "female-elder": {
+      "url": "/assets/r4/people/skin-female-elder.jpg",
+      "bytes": 618439,
+      "sha256": "1f7a792aef736af7856dbed629fcb1b2e7f201872f7fbb7c899aacf57e9339d2",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sources": [
+        "skins/old_asian_female/old_lightskinned_female_diffuse2.png"
+      ]
+    },
+    "female-middle": {
+      "url": "/assets/r4/people/skin-female-middle.jpg",
+      "bytes": 485906,
+      "sha256": "637edef19cddcc195e3c0d4dc76699950ababf6205891a62f7a6f538c55fcc88",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sources": [
+        "skins/young_asian_female/young_lightskinned_female_diffuse3.png",
+        "skins/old_asian_female/old_lightskinned_female_diffuse2.png"
+      ],
+      "blend": {
+        "young": 0.6,
+        "elder": 0.4
+      }
+    }
+  },
+  "provenance": "research/r4/assets/system-subset-manifest.json",
+  "limitations": [
+    "Art assets are generic authored MakeHuman models; profile labels do not claim real persons or Vietnamese identity.",
+    "No animation clips shipped; procedural animation must respect documented rest axes.",
+    "Outfit and hair mesh fit is computed from official vertex bindings; extreme motion can still expose garment/body intersections.",
+    "Skin/body surface hidden under clothes using official delete_verts data, never displayed as a nude person.",
+    "Skin maps resized to2K; hair and cloth maps1K; source microdetail is limited by original authored assets."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "release": "R2 Three.js",
+  "recorded_at": "2026-11-04T01:10:58.831740+00:00",
+  "status": "Các luồng đã quan sát đạt trong phạm vi desktop và viewport mobile; chưa phải nghiệm thu thiết bị thật.",
+  "environment": "Codex in-app browser on macOS. Viewports: default 860x988, explicit desktop 1280x800, mobile 390x844. Exact GPU and model cost not measured.",
+  "method": "Real UI actions through cua_repl; read DOM-backed scene telemetry. Scripted manual verification, not a reusable full E2E suite.",
+  "checks": [
+    {
+      "name": "Three.js thật",
+      "result": "WebGL canvas ready, revision 187, frames tăng; góc nhìn và mesh có phối cảnh, không dùng ảnh làm cảnh chính."
+    },
+    {
+      "name": "Đi tới khu vực",
+      "result": "Đã đến gác chuông (-11.50,-3.00), chánh điện (0,-8), hồ (8,11)."
+    },
+    {
+      "name": "Đi qua cầu",
+      "result": "Đã đi từ sân qua cầu tới (0,29); ảnh bridge-gate.jpg và quan sát DOM."
+    },
+    {
+      "name": "Chỗ ngồi",
+      "result": "Đã ngồi ở bồ đoàn chánh điện (2,-8.4) và dưới bồ đề (16.4,-1.7), seated=true."
+    },
+    {
+      "name": "Camera",
+      "result": "Sau kéo và zoom, camera đổi từ (17,9,29) sang (7.46,7.96,32.73); góc nhìn được lưu."
+    },
+    {
+      "name": "WASD",
+      "result": "Phím w đổi vị trí từ (16.40,-1.70) sang (15.13,-2.49), camera theo; đứng dậy khỏi bồ đoàn."
+    },
+    {
+      "name": "Hoa đăng 3D",
+      "result": "Sau gửi form có 1 lantern trong scene; có ảnh hồ và telemetry."
+    },
+    {
+      "name": "Mõ, hương, chuông, chắp tay",
+      "result": "UI gọi sự kiện tương ứng vào scene. Đã quan sát incenseActive=true; chưa thẩm âm hoặc thẩm định nghi lễ."
+    },
+    {
+      "name": "Tràng hạt",
+      "result": "Mở panel, reset, chạm hai lần -> 2. Giữ bộ đếm 108 đã kiểm ở R1."
+    },
+    {
+      "name": "Ngồi yên",
+      "result": "Chọn 3 phút -> 03:00, bắt đầu, tạm dừng và đóng; R1 đã chạy đủ một phút."
+    },
+    {
+      "name": "Mobile nhẹ",
+      "result": "390x844, quality=light; telemetry ghi 30fps, 34 đến 45 draw calls ở các góc đã lấy mẫu. Không phải phép đo điện thoại thật."
+    },
+    {
+      "name": "Desktop cân bằng",
+      "result": "Mẫu 860x988 ghi khoảng 60fps, 78 đến 119 draw calls trong các cảnh đã quan sát. Không phải thử tải/benchmark chuẩn."
+    },
+    {
+      "name": "Lọc nguồn",
+      "result": "19 chủ đề, 57 claim; auditor và idempotence pass; 6 cổng áp dụng chặn được lỗi tiêm thử."
+    },
+    {
+      "name": "Bản cuối desktop rộng",
+      "result": "1280x800, WebGL ready r187, balanced, 60fps và 103 draw calls tại mẫu cuối; ảnh desktop-home.jpg."
+    },
+    {
+      "name": "Xóa tùy chỉnh mới",
+      "result": "Đã kiểm thao tác xóa; mobile trở về quality=light và Chiều an. Bản mới reset cả ambient volume và quality."
+    }
+  ],
+  "not_tested": [
+    "Real Android/iOS hardware and multi-touch gestures",
+    "Other browser engines or screen readers",
+    "Multiplayer or server load",
+    "User-preference A/B against Sansa",
+    "Human evaluation of spiritual/cultural accuracy",
+    "Perceptual audio quality",
+    "Forced WebGL failure/context loss recovery",
+    "Direct LLM/independent agent development baseline"
+  ],
+  "repairs": [
+    "Moved tam quan posts from world origin into gate group.",
+    "Removed a central entrance column blocking the navigation target.",
+    "Replaced removed PCFSoftShadowMap with PCFShadowMap in r187. Historical warning remains in browser log; no new compile errors observed.",
+    "Added accessible seating destinations alongside ray picking.",
+    "Shared lotus pad geometry to bound GPU geometry allocation when replacing old lanterns."
+  ],
+  "final_files_sha256": {
+    "dist/scene.js": "0fac42359731d2a1c481fd630aca127aa0c3c2ad5101ce6843d05310903fe37d",
+    "dist/app.js": "5b333b2385efc6528ea722d4d0a3f91700ab75f7ec964e87171d9571e303b903",
+    "dist/index.html": "51850252235010d4024ff2fd06868c46b50bc97cb9cb92fa9991843e910afc56",
+    "dist/style.css": "5d73f886d9587ff808460c7a0d6cb9ea59e0c0a6b1e30ce14ce0320bb1a685ca"
+  },
+  "evidence_scope": "Telemetry spans R2 iterations; final desktop sample taken after final code reload. Earlier warnings/repairs retained explicitly."
+}

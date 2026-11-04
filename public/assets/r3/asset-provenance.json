@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "provider": "Poly Haven",
+  "license": "CC0-1.0",
+  "api_credit": "Powered by Poly Haven",
+  "files": [
+    {
+      "asset": "rock_moss_set_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rock_moss_set_01/rock_moss_set_01_1k.gltf",
+      "expected_md5": "75113cc1c21806cca5d8badad4737af7",
+      "expected_bytes": 9987,
+      "path": "public/assets/r3/rock_moss_set_01/rock_moss_set_01_1k.gltf",
+      "role": "gltf",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "bytes": 9987,
+      "md5": "75113cc1c21806cca5d8badad4737af7",
+      "sha256": "c36675aca9c6b2be7785c2534cf413b03ec82a5a2a5407a2b1c0cdb0346c9727",
+      "retrieved_at": "2026-11-04T04:37:54.390361+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rock_moss_set_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_nor_gl_1k.jpg",
+      "expected_md5": "eb7ebd31ad08e78d0497900652ff1568",
+      "expected_bytes": 209975,
+      "path": "public/assets/r3/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_1k.jpg",
+      "role": "gltf dependency",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "bytes": 209975,
+      "md5": "eb7ebd31ad08e78d0497900652ff1568",
+      "sha256": "eb4aad3f207f1dc5b624d74ae240372171626a66912bd71adf7bd3e518181d6e",
+      "retrieved_at": "2026-11-04T04:37:54.583452+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rock_moss_set_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_moss_set_01/rock_moss_set_01.bin",
+      "expected_md5": "207a51c9f56d34732e9814bbf9cc07b1",
+      "expected_bytes": 1466380,
+      "path": "public/assets/r3/rock_moss_set_01/rock_moss_set_01.bin",
+      "role": "gltf dependency",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "bytes": 1466380,
+      "md5": "207a51c9f56d34732e9814bbf9cc07b1",
+      "sha256": "de8360e6175879aaf02c171911069cf5f1852547f9ca7f10e440085dbcc3315e",
+      "retrieved_at": "2026-11-04T04:37:57.631246+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rock_moss_set_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_rough_1k.jpg",
+      "expected_md5": "ed9d8a2c863262f76f881346e8047c6a",
+      "expected_bytes": 82624,
+      "path": "public/assets/r3/rock_moss_set_01/textures/rock_moss_set_01_rough_1k.jpg",
+      "role": "gltf dependency",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "bytes": 82624,
+      "md5": "ed9d8a2c863262f76f881346e8047c6a",
+      "sha256": "4d6ec46623abd8e2cdb855f59c7ce31873ad61b36b60e4de579e9e776a497c6b",
+      "retrieved_at": "2026-11-04T04:37:54.863392+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rock_moss_set_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_diff_1k.jpg",
+      "expected_md5": "b8742301e6b4bc5683d2de712e83f772",
+      "expected_bytes": 168099,
+      "path": "public/assets/r3/rock_moss_set_01/textures/rock_moss_set_01_diff_1k.jpg",
+      "role": "gltf dependency",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "bytes": 168099,
+      "md5": "b8742301e6b4bc5683d2de712e83f772",
+      "sha256": "40cea65d8aa4ee73a93b04af19963834d061eee9779c3fc2c1cba76eef812ccc",
+      "retrieved_at": "2026-11-04T04:37:55.453235+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "clay_roof_tiles_02",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_diff_1k.jpg",
+      "expected_md5": "43c45fa3ac4c68ffb28aa813cec32608",
+      "expected_bytes": 903929,
+      "path": "public/assets/r3/clay_roof_tiles_02/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/clay_roof_tiles_02",
+      "bytes": 903929,
+      "md5": "43c45fa3ac4c68ffb28aa813cec32608",
+      "sha256": "227a062b38b170e02c27eaa513dae45dc8bc893a62cbd8d0c08e2c32b381fc25",
+      "retrieved_at": "2026-11-04T04:37:57.579625+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "clay_roof_tiles_02",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_nor_gl_1k.jpg",
+      "expected_md5": "9e24ddc6fbf048291f8e24bfb1f16e6d",
+      "expected_bytes": 990101,
+      "path": "public/assets/r3/clay_roof_tiles_02/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/clay_roof_tiles_02",
+      "bytes": 990101,
+      "md5": "9e24ddc6fbf048291f8e24bfb1f16e6d",
+      "sha256": "1548d3ebce335a4590d9e421556c4189a7b63852c793a568c71b9e533f8b62d5",
+      "retrieved_at": "2026-11-04T04:37:57.977701+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "clay_roof_tiles_02",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_rough_1k.jpg",
+      "expected_md5": "f26a67aa20fbdcb7b70b85ccf4153245",
+      "expected_bytes": 341520,
+      "path": "public/assets/r3/clay_roof_tiles_02/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/clay_roof_tiles_02",
+      "bytes": 341520,
+      "md5": "f26a67aa20fbdcb7b70b85ccf4153245",
+      "sha256": "6d7596c4f3644ac50237381aeadf58f9b68a6dddeb66b6eef4f64462dcbbf82f",
+      "retrieved_at": "2026-11-04T04:37:58.632345+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "square_brick_paving",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/square_brick_paving/square_brick_paving_diff_1k.jpg",
+      "expected_md5": "63f7216753f210a5b8fb76173d138087",
+      "expected_bytes": 801622,
+      "path": "public/assets/r3/square_brick_paving/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/square_brick_paving",
+      "bytes": 801622,
+      "md5": "63f7216753f210a5b8fb76173d138087",
+      "sha256": "b4a1eb4d078c58fc924b98142f0315e2213e6ed3e6f1d6b76d29ac335a431510",
+      "retrieved_at": "2026-11-04T04:37:58.836861+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "square_brick_paving",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/square_brick_paving/square_brick_paving_nor_gl_1k.jpg",
+      "expected_md5": "cf1c544d8550cbbd0fdd3c916537996a",
+      "expected_bytes": 971196,
+      "path": "public/assets/r3/square_brick_paving/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/square_brick_paving",
+      "bytes": 971196,
+      "md5": "cf1c544d8550cbbd0fdd3c916537996a",
+      "sha256": "3dd618f602e6dd7c950c05b6b467e1d8122390885028ce91f5e271e19055daa4",
+      "retrieved_at": "2026-11-04T04:37:59.739752+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "square_brick_paving",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/square_brick_paving/square_brick_paving_rough_1k.jpg",
+      "expected_md5": "c076b758f13ddfe7e7ffcebe7fb9f964",
+      "expected_bytes": 367388,
+      "path": "public/assets/r3/square_brick_paving/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/square_brick_paving",
+      "bytes": 367388,
+      "md5": "c076b758f13ddfe7e7ffcebe7fb9f964",
+      "sha256": "0071a2f0cea9e3eb4434b1d574b479ffca62f8c2014989b202537db435971a5c",
+      "retrieved_at": "2026-11-04T04:37:59.920097+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "weathered_planks",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/weathered_planks/weathered_planks_diff_1k.jpg",
+      "expected_md5": "5d7c9e7088bfa54490ba03ba15b660d8",
+      "expected_bytes": 599581,
+      "path": "public/assets/r3/weathered_planks/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/weathered_planks",
+      "bytes": 599581,
+      "md5": "5d7c9e7088bfa54490ba03ba15b660d8",
+      "sha256": "01c9a372cfd7a7bf471b59c2458ed3ccecc93448aebf7ba0cc5b3b5b6ed24349",
+      "retrieved_at": "2026-11-04T04:38:00.331203+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "weathered_planks",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/weathered_planks/weathered_planks_nor_gl_1k.jpg",
+      "expected_md5": "119541f6b143f21f0a6e9774e9208905",
+      "expected_bytes": 681552,
+      "path": "public/assets/r3/weathered_planks/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/weathered_planks",
+      "bytes": 681552,
+      "md5": "119541f6b143f21f0a6e9774e9208905",
+      "sha256": "381d298f3194ec4961b04b4912b9b6efea4b2ff7b914dac57e24c8b6b0be6a25",
+      "retrieved_at": "2026-11-04T04:38:01.072043+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "weathered_planks",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/weathered_planks/weathered_planks_rough_1k.jpg",
+      "expected_md5": "4ca50b076e1fc58f6862a5b039a7d5c9",
+      "expected_bytes": 218802,
+      "path": "public/assets/r3/weathered_planks/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/weathered_planks",
+      "bytes": 218802,
+      "md5": "4ca50b076e1fc58f6862a5b039a7d5c9",
+      "sha256": "a017728183597417a350d1846a5a46db9702ee6d472a21c5da2f23015d606aa3",
+      "retrieved_at": "2026-11-04T04:38:00.879962+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "dark_wood",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dark_wood/dark_wood_diff_1k.jpg",
+      "expected_md5": "47fa883f1bb33acc5711245f64b75975",
+      "expected_bytes": 754754,
+      "path": "public/assets/r3/dark_wood/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/dark_wood",
+      "bytes": 754754,
+      "md5": "47fa883f1bb33acc5711245f64b75975",
+      "sha256": "d68da31655bf47024af893156a6a01a6c95bb60f55d97e2dc9bdd47be320e5b5",
+      "retrieved_at": "2026-11-04T04:38:01.775722+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "dark_wood",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dark_wood/dark_wood_nor_gl_1k.jpg",
+      "expected_md5": "ca74ffa4c1b7ff5afe7316bbfa87f9a0",
+      "expected_bytes": 344338,
+      "path": "public/assets/r3/dark_wood/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/dark_wood",
+      "bytes": 344338,
+      "md5": "ca74ffa4c1b7ff5afe7316bbfa87f9a0",
+      "sha256": "c42541f1bda0a14b39f120c24407eeba699af8ac85b371c7cef98ffd7d7b13bf",
+      "retrieved_at": "2026-11-04T04:38:02.027478+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "dark_wood",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dark_wood/dark_wood_rough_1k.jpg",
+      "expected_md5": "b1acb7bf90785d3945a85eca408dbc6c",
+      "expected_bytes": 574415,
+      "path": "public/assets/r3/dark_wood/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/dark_wood",
+      "bytes": 574415,
+      "md5": "b1acb7bf90785d3945a85eca408dbc6c",
+      "sha256": "47ea12dbf649109b02eaa164dde9732a74e839957f29ad0ec7f5266b575d1835",
+      "retrieved_at": "2026-11-04T04:38:02.321878+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "monastery_stone_floor",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/monastery_stone_floor/monastery_stone_floor_diff_1k.jpg",
+      "expected_md5": "8e748f767d8e478438ef748833365754",
+      "expected_bytes": 766525,
+      "path": "public/assets/r3/monastery_stone_floor/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/monastery_stone_floor",
+      "bytes": 766525,
+      "md5": "8e748f767d8e478438ef748833365754",
+      "sha256": "8e52ec982469ce9da312cefe3126c1dff05b7150234971bc6dff6e31c3c584ae",
+      "retrieved_at": "2026-11-04T04:38:03.191110+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "monastery_stone_floor",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/monastery_stone_floor/monastery_stone_floor_nor_gl_1k.jpg",
+      "expected_md5": "257ccdbbe1c2a23f74cece55b81861ac",
+      "expected_bytes": 1063115,
+      "path": "public/assets/r3/monastery_stone_floor/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/monastery_stone_floor",
+      "bytes": 1063115,
+      "md5": "257ccdbbe1c2a23f74cece55b81861ac",
+      "sha256": "f2f1c3e8d52c1e3a49ef59695743872f2adaa57bc0d3f64b129ce988966162c1",
+      "retrieved_at": "2026-11-04T04:38:03.864451+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "monastery_stone_floor",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/monastery_stone_floor/monastery_stone_floor_rough_1k.jpg",
+      "expected_md5": "ea3793f350c70ebd6216ae5b4565d4eb",
+      "expected_bytes": 477972,
+      "path": "public/assets/r3/monastery_stone_floor/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/monastery_stone_floor",
+      "bytes": 477972,
+      "md5": "ea3793f350c70ebd6216ae5b4565d4eb",
+      "sha256": "8d987222b727442c11c30cd4d8a32ed48f02e46683acd088d994baef5bf311a9",
+      "retrieved_at": "2026-11-04T04:38:03.947949+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "brown_mud_leaves_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_leaves_01/brown_mud_leaves_01_diff_1k.jpg",
+      "expected_md5": "5340848384f9bb19bfa6e7ac459683d7",
+      "expected_bytes": 1206953,
+      "path": "public/assets/r3/brown_mud_leaves_01/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "bytes": 1206953,
+      "md5": "5340848384f9bb19bfa6e7ac459683d7",
+      "sha256": "c598c555f13cd5328409fd5e2a45496a26e319e52299e3959042f1449c2f1b06",
+      "retrieved_at": "2026-11-04T04:38:04.913776+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "brown_mud_leaves_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_1k.jpg",
+      "expected_md5": "3698df51ef8262ddf2248ffca1e73196",
+      "expected_bytes": 1486072,
+      "path": "public/assets/r3/brown_mud_leaves_01/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "bytes": 1486072,
+      "md5": "3698df51ef8262ddf2248ffca1e73196",
+      "sha256": "8dd5166ddcc293cefd331d491ce6b9162bc9202ddd999ac1e4141697560d38e0",
+      "retrieved_at": "2026-11-04T04:38:05.685606+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "brown_mud_leaves_01",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_leaves_01/brown_mud_leaves_01_rough_1k.jpg",
+      "expected_md5": "3896f151d1b1de421a61c3c5d9a742b0",
+      "expected_bytes": 644332,
+      "path": "public/assets/r3/brown_mud_leaves_01/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "bytes": 644332,
+      "md5": "3896f151d1b1de421a61c3c5d9a742b0",
+      "sha256": "9f84b7e7b5fdd2ff9798645fdec243b994fced05e543692761994b793211b5d0",
+      "retrieved_at": "2026-11-04T04:38:05.126555+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rough_linen",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_diff_1k.jpg",
+      "expected_md5": "663db789fb075462b685c1f740e58930",
+      "expected_bytes": 835801,
+      "path": "public/assets/r3/rough_linen/diffuse.jpg",
+      "role": "Diffuse",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rough_linen",
+      "bytes": 835801,
+      "md5": "663db789fb075462b685c1f740e58930",
+      "sha256": "04897d7611d7390ddf5b2c6f7273f448dfc48341fdbd1f4f207fa30b331d7f57",
+      "retrieved_at": "2026-11-04T04:38:07.405084+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rough_linen",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_nor_gl_1k.jpg",
+      "expected_md5": "3350269a2e9c472aa406bd3cc1eaf2c8",
+      "expected_bytes": 916843,
+      "path": "public/assets/r3/rough_linen/normal-gl.jpg",
+      "role": "nor_gl",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rough_linen",
+      "bytes": 916843,
+      "md5": "3350269a2e9c472aa406bd3cc1eaf2c8",
+      "sha256": "e2402166d1a489f7414814e69e1836ab672aa24e30bec2d41fea356f81687e53",
+      "retrieved_at": "2026-11-04T04:38:07.261544+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "rough_linen",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rough_linen/rough_linen_rough_1k.jpg",
+      "expected_md5": "a380b24cc43cff88c39510305ebf0020",
+      "expected_bytes": 1083725,
+      "path": "public/assets/r3/rough_linen/roughness.jpg",
+      "role": "Rough",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/rough_linen",
+      "bytes": 1083725,
+      "md5": "a380b24cc43cff88c39510305ebf0020",
+      "sha256": "734ad6718841a6e296aacaa6e9ee2e1686eed5f62bb8d71c915c5605e162bcb4",
+      "retrieved_at": "2026-11-04T04:38:08.331697+00:00",
+      "verified_md5": true
+    },
+    {
+      "asset": "monks_forest",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/monks_forest_1k.hdr",
+      "expected_md5": "ee0aa7afd992a39d9cf71993f5713167",
+      "expected_bytes": 1928394,
+      "path": "public/assets/r3/monks_forest_1k.hdr",
+      "role": "linear HDR environment",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "asset_url": "https://polyhaven.com/a/monks_forest",
+      "bytes": 1928394,
+      "md5": "ee0aa7afd992a39d9cf71993f5713167",
+      "sha256": "366a42c7ef9a68175ddd388845fca5431af8ee0459e86f429a92d0b33f44de7f",
+      "retrieved_at": "2026-11-04T04:38:09.850465+00:00",
+      "verified_md5": true
+    }
+  ],
+  "assets": {
+    "brown_mud_leaves_01": {
+      "source_url": "https://polyhaven.com/a/brown_mud_leaves_01",
+      "name": "Brown Mud Leaves 01",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "catalog_dimensions_raw": [
+        1299.9998331069946,
+        1299.9998331069946
+      ],
+      "license": "CC0-1.0"
+    },
+    "clay_roof_tiles_02": {
+      "source_url": "https://polyhaven.com/a/clay_roof_tiles_02",
+      "name": "Clay Roof Tiles 02",
+      "authors": {
+        "Amal Kumar": "All"
+      },
+      "catalog_dimensions_raw": [
+        2500,
+        2500
+      ],
+      "license": "CC0-1.0"
+    },
+    "dark_wood": {
+      "source_url": "https://polyhaven.com/a/dark_wood",
+      "name": "Dark Wood",
+      "authors": {
+        "Dario Barresi": "Baking",
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Tiling"
+      },
+      "catalog_dimensions_raw": [
+        2000,
+        2000
+      ],
+      "license": "CC0-1.0"
+    },
+    "monastery_stone_floor": {
+      "source_url": "https://polyhaven.com/a/monastery_stone_floor",
+      "name": "Monastery Stone Floor",
+      "authors": {
+        "Amal Kumar": "All"
+      },
+      "catalog_dimensions_raw": [
+        1799.9999523162842,
+        1799.9999523162842
+      ],
+      "license": "CC0-1.0"
+    },
+    "monks_forest": {
+      "source_url": "https://polyhaven.com/a/monks_forest",
+      "name": "Monk's forest",
+      "authors": {
+        "Greg Zaal": "All"
+      },
+      "catalog_dimensions_raw": null,
+      "license": "CC0-1.0"
+    },
+    "rock_moss_set_01": {
+      "source_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "name": "Rock Moss Set 01",
+      "authors": {
+        "Kless Gyzen": "All"
+      },
+      "catalog_dimensions_raw": [
+        8004.603862762451,
+        6948.764801025391,
+        1768.319845199585
+      ],
+      "license": "CC0-1.0"
+    },
+    "rough_linen": {
+      "source_url": "https://polyhaven.com/a/rough_linen",
+      "name": "Rough Linen",
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "catalog_dimensions_raw": [
+        270.7081392676629,
+        271.29998803138733
+      ],
+      "license": "CC0-1.0"
+    },
+    "square_brick_paving": {
+      "source_url": "https://polyhaven.com/a/square_brick_paving",
+      "name": "Square Brick Paving",
+      "authors": {
+        "Dimitrios Savva": "All"
+      },
+      "catalog_dimensions_raw": [
+        2099.9999046325684,
+        2099.9999046325684
+      ],
+      "license": "CC0-1.0"
+    },
+    "weathered_planks": {
+      "source_url": "https://polyhaven.com/a/weathered_planks",
+      "name": "Weathered Planks",
+      "authors": {
+        "Dario Barresi": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "catalog_dimensions_raw": [
+        2000,
+        2000
+      ],
+      "license": "CC0-1.0"
+    }
+  },
+  "derived_assets": {
+    "tree": {
+      "path": "public/assets/r3/island-tree.glb",
+      "bytes": 8215640,
+      "sha256": "97b8071320f149cca6a382d7c943d6b79702560d96ad92da88c651a2eaa0ce4f",
+      "license": "CC0-1.0",
+      "before": [
+        {
+          "material": "island_tree_01",
+          "triangles": 34787
+        },
+        {
+          "material": "island_tree_01_leaves",
+          "triangles": 1060032
+        },
+        {
+          "material": "island_tree_01_branches",
+          "triangles": 504584
+        }
+      ],
+      "after": [
+        {
+          "material": "island_tree_01",
+          "triangles": 2434
+        },
+        {
+          "material": "island_tree_01_leaves",
+          "triangles": 74202
+        },
+        {
+          "material": "island_tree_01_branches",
+          "triangles": 32873
+        }
+      ],
+      "leafAlpha": "Official 16-bit RGBA PNG converted to 8-bit PNG, MASK cutoff 0.45",
+      "compression": "EXT_meshopt_compression",
+      "source_url": "https://polyhaven.com/a/island_tree_01"
+    },
+    "head": {
+      "path": "public/assets/r3/human-head.json",
+      "bytes": 362541,
+      "sha256": "04c2dc15f96c10f633f11ac6a9ccb7128c8fb842f4f30c55975cec2adba5d3e2",
+      "vertices": 4311,
+      "triangles": 8572,
+      "license": "CC0-1.0",
+      "sourceBounds": [
+        [
+          -0.8793,
+          0.8793
+        ],
+        [
+          5.8042,
+          8.4913
+        ],
+        [
+          -0.3916,
+          1.6807
+        ]
+      ],
+      "normalizedHeight": 1,
+      "sourceGroup": "body",
+      "excluded": "All helper and joint groups; body below source Y=5.8",
+      "source_url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/makehuman/data/3dobjs/base.obj",
+      "license_url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.ASSETS.md"
+    },
+    "decoder": {
+      "path": "public/assets/r3/meshopt_decoder.module.js",
+      "license": "MIT",
+      "licenseFile": "public/assets/r3/meshoptimizer-LICENSE.md",
+      "source_url": "https://github.com/zeux/meshoptimizer"
+    },
+    "far_tree": {
+      "path": "public/assets/r3/island-tree-far.glb",
+      "source_path": "public/assets/r3/island-tree.glb",
+      "source_sha256": "97b8071320f149cca6a382d7c943d6b79702560d96ad92da88c651a2eaa0ce4f",
+      "bytes": 1346572,
+      "sha256": "fb2f9321533ea1d5e7a2b7c778d46bf8852999dd3fec3c0537f98fb94823646a",
+      "license": "CC0-1.0",
+      "source_url": "https://polyhaven.com/a/island_tree_01",
+      "before_triangles": 109509,
+      "triangles": 19438,
+      "leaf_alpha_mode": "MASK",
+      "leaf_alpha_cutoff": 0.45,
+      "textures": "Original optimized-tree textures resized to 512px; PNG leaf alpha preserved; JPEG normals quality88, other JPEG maps quality82 with 4:4:4 chroma",
+      "source_texture_bytes": 6133921,
+      "texture_bytes": 886372,
+      "leaf_texture_dimensions": [
+        512,
+        512
+      ],
+      "leaf_alpha_range": [
+        0,
+        255
+      ],
+      "compression": "EXT_meshopt_compression",
+      "verification": "GLB decoded again; triangle count, alpha settings and resized texture SHA256 signatures match expectations; PNG alpha range verified",
+      "texture_signatures": [
+        {
+          "name": "island_tree_01_nor_gl",
+          "mimeType": "image/jpeg",
+          "sha256": "bd5d58a8ba0a68be56c1ebdc78f349fa144317d3e885b35877ca5c429ef01bfe",
+          "bytes": 184231
+        },
+        {
+          "name": "island_tree_01_diff",
+          "mimeType": "image/jpeg",
+          "sha256": "4723fe3526e99682915b166b6dfe92332544410fa21b8dca8f520f214d00c472",
+          "bytes": 65277
+        },
+        {
+          "name": "island_tree_01_rough",
+          "mimeType": "image/jpeg",
+          "sha256": "9bffe3ec0a96fac8c985bc59a176e57e54af9ec1e67492fe65bb5f453b9ebf94",
+          "bytes": 82324
+        },
+        {
+          "name": "island_tree_01_leaves_nor_gl",
+          "mimeType": "image/jpeg",
+          "sha256": "67f0476dbabb0a8b4257f8da0d39029e3cac922a1ae44901e37dd3eef88d3824",
+          "bytes": 55617
+        },
+        {
+          "name": "island_tree_01_leaves_diff-island_tree_01_leaves_alpha",
+          "mimeType": "image/png",
+          "sha256": "ad2bc304b5a21bde971e0157cf7bdc22ea8a035f48a1f6e2e0ffc217b705241c",
+          "bytes": 197321
+        },
+        {
+          "name": "island_tree_01_leaves_rough",
+          "mimeType": "image/jpeg",
+          "sha256": "6a7668c1602b231d92363a121705c5d00071a5ae4859ec2d6b0d660d3588da59",
+          "bytes": 60725
+        },
+        {
+          "name": "island_tree_01_branches_nor_gl",
+          "mimeType": "image/jpeg",
+          "sha256": "7a997c0b391ad41d287bb1649fcceec2fec5ae9ff54eb284f3a1e0120993e4b6",
+          "bytes": 132704
+        },
+        {
+          "name": "island_tree_01_branches_diff",
+          "mimeType": "image/jpeg",
+          "sha256": "f3e47287d4535e12943194eb28a677950f0172ba0037d50b87a79bde241dedeb",
+          "bytes": 61520
+        },
+        {
+          "name": "island_tree_01_branches_rough",
+          "mimeType": "image/jpeg",
+          "sha256": "bfb6f675a7e130a40ca9a479af75615d422da89a460b4453baeb1152851f5f99",
+          "bytes": 46653
+        }
+      ]
+    }
+  }
+}

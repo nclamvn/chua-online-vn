@@ -1,0 +1,46 @@
+{
+  "edition": "R4 · Ngày hội",
+  "verifiedOn": "2026-11-04",
+  "research": {
+    "topics": 24,
+    "evidenceRecords": 72,
+    "scope": "Selected public product surfaces and client code. No external server load or transaction test."
+  },
+  "world": {
+    "destinations": 11,
+    "walkableAnchorPairsChecked": 121,
+    "meditationSeats": 38
+  },
+  "browser": {
+    "scope": "Local Worker and real D1, two tabs on the same machine, observed rendered avatar and received movement, greeting, prostration and meditation states.",
+    "oracle": "Completed six throws, saw base and changed hexagrams and saved history. All 64 patterns were checked against independent sources.",
+    "offerings": "Created and cancelled a synthetic demo receipt in the local browser. API tests covered idempotency, key isolation, date and daily limits."
+  },
+  "crowdSample": {
+    "simulatedVisitors": 1000,
+    "texturedProfiles": 8,
+    "graphics": "Cân bằng",
+    "resolutionCssPixels": [
+      1280,
+      720
+    ],
+    "measuredFpsSnapshots": {
+      "aerial": 30,
+      "ground": 30
+    },
+    "farInstancedBatches": 31,
+    "scope": "One local sample in each view after the distant character mesh fix and asset load, on one machine. Results vary by view, graphics settings and device.",
+    "nearSkinnedPeopleAtGround": 24
+  },
+  "livePilot": {
+    "rooms": 3,
+    "capacityPerRoom": 12,
+    "network": "Interpolated HTTP snapshots",
+    "loadTest1000RealUsers": false
+  },
+  "limits": [
+    "Simulated characters run on each visitor's device and are excluded from live counts.",
+    "Offering receipts are part of a demo. No payment or temple fulfillment.",
+    "Oracle text is cultural reflection. The shared meditation window is a demo schedule."
+  ]
+}

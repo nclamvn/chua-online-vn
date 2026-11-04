@@ -1,0 +1,8 @@
+{
+  "version": "0.187.0",
+  "url": "https://registry.npmjs.org/three/-/three-0.187.0.tgz",
+  "integrity": "sha512-Qiu7R+Cmh8CstZsY1uJOSWnVlfo7ZtNLV7mF8Jltk3LB3AtDu9cRZlcnRKkAk8Y4z6KKw35z7Y7Urd7jWY8etA==",
+  "license": "MIT",
+  "fetched_at": "2026-11-04T00:51:36.824660+00:00",
+  "modification": "OrbitControls import rewritten to local module. No Sansa code or models reused."
+}

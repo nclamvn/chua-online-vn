@@ -1,0 +1,1389 @@
+{
+  "captured_at": "2026-11-04T00:44:13.435352+00:00",
+  "scope": "bounded purposive sample, not market census",
+  "source_count": 19,
+  "successful_snapshots": 17,
+  "sources": [
+    {
+      "id": "sansa",
+      "url": "https://sansatemple.com/",
+      "tier": "A",
+      "note": "Sản phẩm gốc, nội dung công khai",
+      "fetched_at": "2026-11-04T00:36:02.107260+00:00",
+      "status": 200,
+      "final_url": "https://sansatemple.com/",
+      "bytes": 5426,
+      "sha256": "ec65c5780b0cbe97727545cdffe9155be84c426ba19a7a500edbdbadc535f507",
+      "content_encoding": "",
+      "snapshot": "sansa.html",
+      "independence_group": "sansa"
+    },
+    {
+      "id": "vnexpress",
+      "url": "https://vnexpress.net/tac-gia-chua-online-khuay-dao-mang-voi-30-phut-lap-trinh-ai-5140379.html",
+      "tier": "B",
+      "note": "Bài khởi điểm, nguồn tổng hợp",
+      "fetched_at": "2026-11-04T00:36:02.107838+00:00",
+      "status": 200,
+      "final_url": "https://vnexpress.net/tac-gia-chua-online-khuay-dao-mang-voi-30-phut-lap-trinh-ai-5140379.html",
+      "bytes": 273192,
+      "sha256": "76a11a7f5167012860477e13e989daaa0a28b0648e7ba3408a3e3f007dc5e607",
+      "content_encoding": "",
+      "snapshot": "vnexpress.html",
+      "independence_group": "vnexpress"
+    },
+    {
+      "id": "asiae",
+      "url": "https://www.asiae.co.kr/en/article/2026110209301323649",
+      "tier": "B",
+      "note": "Phóng viên trải nghiệm và trích phỏng vấn",
+      "fetched_at": "2026-11-04T00:36:02.108019+00:00",
+      "status": "unavailable",
+      "independence_group": "asiae"
+    },
+    {
+      "id": "hankook",
+      "url": "https://www.hankookilbo.com/news/article/A2026110209300002105",
+      "tier": "B",
+      "note": "Báo Hàn Quốc, bản gốc tiếng Hàn",
+      "fetched_at": "2026-11-04T00:36:02.108229+00:00",
+      "status": 200,
+      "final_url": "https://www.hankookilbo.com/news/article/A2026110209300002105",
+      "bytes": 161081,
+      "sha256": "3f25caa63fdd91cf6639d6c6a2ca5c76b397e5fe93cb18854310f013ba9a8412",
+      "content_encoding": "",
+      "snapshot": "hankook.html",
+      "independence_group": "hankook"
+    },
+    {
+      "id": "koreatimes",
+      "url": "https://www.koreatimes.co.kr/southkorea/20261103/ai-built-virtual-buddhist-temple-draws-1-mil-visitors-in-less-than-a-week",
+      "tier": "B",
+      "note": "Báo Hàn Quốc; bài ghi rõ dịch từ Hankook Ilbo, không độc lập",
+      "fetched_at": "2026-11-04T00:36:02.108380+00:00",
+      "status": 200,
+      "final_url": "https://www.koreatimes.co.kr/southkorea/20261103/ai-built-virtual-buddhist-temple-draws-1-mil-visitors-in-less-than-a-week",
+      "bytes": 180094,
+      "sha256": "34b4f4486df255677bfe0efbbbff85569b8008fa2798c0b18cc29e13a1298eae",
+      "content_encoding": "",
+      "snapshot": "koreatimes.html",
+      "independence_group": "hankook"
+    },
+    {
+      "id": "znews",
+      "url": "https://znews.vn/gan-3000-nguoi-len-web-di-chua-online-luc-23h-post1693824.html",
+      "tier": "B",
+      "note": "Ghi nhận trải nghiệm người Việt",
+      "fetched_at": "2026-11-04T00:36:02.108509+00:00",
+      "status": 200,
+      "final_url": "https://znews.vn/gan-3000-nguoi-len-web-di-chua-online-luc-23h-post1693824.html",
+      "bytes": 256025,
+      "sha256": "fc4a9f1c71174a88f85aee54675cd1f87890bb3e0e7cd6763fa875abb3973a76",
+      "content_encoding": "gzip",
+      "snapshot": "znews.html",
+      "independence_group": "znews"
+    },
+    {
+      "id": "phapluat",
+      "url": "https://baophapluat.vn/canh-bao-nguy-co-truc-loi-tu-trao-luu-di-chua-online.html",
+      "tier": "B",
+      "note": "Phản biện từ tôn giáo và xã hội",
+      "fetched_at": "2026-11-04T00:36:02.230165+00:00",
+      "status": 200,
+      "final_url": "https://baophapluat.vn/canh-bao-nguy-co-truc-loi-tu-trao-luu-di-chua-online.html",
+      "bytes": 109120,
+      "sha256": "9459c4528672870b504c54947ba4f98926d5330ee6884c4bb61f461a15b144c8",
+      "content_encoding": "",
+      "snapshot": "phapluat.html",
+      "independence_group": "phapluat"
+    },
+    {
+      "id": "lechua",
+      "url": "https://lechuaonline.com/",
+      "tier": "A",
+      "note": "Trang sản phẩm Việt",
+      "fetched_at": "2026-11-04T00:36:02.258950+00:00",
+      "status": 200,
+      "final_url": "https://lechuaonline.com/",
+      "bytes": 117783,
+      "sha256": "2d41add72593874b7842f17b23d1a17b65f3e7ff0f96094ac6f167b0d428b0c6",
+      "content_encoding": "",
+      "snapshot": "lechua.html",
+      "independence_group": "lechua"
+    },
+    {
+      "id": "niibook",
+      "url": "https://niibook.com/chuaonline",
+      "tier": "A",
+      "note": "Trang sản phẩm Việt",
+      "fetched_at": "2026-11-04T00:36:02.351481+00:00",
+      "status": 200,
+      "final_url": "https://niibook.com/chuaonline",
+      "bytes": 277189,
+      "sha256": "6582a608f74b577fa70b9b7251a7bb8ad49617a84893951ef1c5a4025ecb3fd1",
+      "content_encoding": "",
+      "snapshot": "niibook.html",
+      "independence_group": "niibook"
+    },
+    {
+      "id": "nhanso",
+      "url": "https://nhanso.vn/di-chua-online/",
+      "tier": "A",
+      "note": "Trang sản phẩm Việt",
+      "fetched_at": "2026-11-04T00:36:02.387389+00:00",
+      "status": 200,
+      "final_url": "https://nhanso.vn/di-chua-online/",
+      "bytes": 135217,
+      "sha256": "2cb2b2fd80ed2c5fba7ec5da3f71c56c14109ca1a748b045fb3cb629417f49b3",
+      "content_encoding": "",
+      "snapshot": "nhanso.html",
+      "independence_group": "nhanso"
+    },
+    {
+      "id": "giacngo",
+      "url": "https://giacngo.chuavn.com/",
+      "tier": "A",
+      "note": "Nguồn tự giới thiệu chùa Giác Ngộ",
+      "fetched_at": "2026-11-04T00:33:49.100231+00:00",
+      "status": 200,
+      "last_attempt_status": "unavailable",
+      "snapshot": "giacngo.html",
+      "sha256": "43b2099276ca7895535998843f7bd59c4d944000fc162520562c5f94a7d04812",
+      "capture_note": "Retained first successful capture; second attempt timed out.",
+      "independence_group": "giacngo"
+    },
+    {
+      "id": "conduong",
+      "url": "https://conduonggiacngo.com/chanh-dien",
+      "tier": "A",
+      "note": "Trang chánh điện online",
+      "fetched_at": "2026-11-04T00:36:02.677916+00:00",
+      "status": 200,
+      "final_url": "https://conduonggiacngo.com/chanh-dien",
+      "bytes": 50497,
+      "sha256": "b8a69bf2db34d6708199850cbaad1de59dd5f275143f0c76dd84b6b76629704a",
+      "content_encoding": "",
+      "snapshot": "conduong.html",
+      "independence_group": "conduong"
+    },
+    {
+      "id": "niemphat",
+      "url": "https://niemphatonline.com/",
+      "tier": "A",
+      "note": "Địa chỉ thử truy cập, cần xác minh chính xác nhận diện",
+      "fetched_at": "2026-11-04T00:36:02.753934+00:00",
+      "status": "unavailable",
+      "independence_group": "niemphat"
+    },
+    {
+      "id": "dichua",
+      "url": "https://dichua.app/",
+      "tier": "A",
+      "note": "Địa chỉ thử truy cập, cần xác minh nhận diện",
+      "fetched_at": "2026-11-04T00:36:02.912513+00:00",
+      "status": 200,
+      "final_url": "https://dichua.app/",
+      "bytes": 10463,
+      "sha256": "9acc2514b831ba84570d4b497d9e283d21fe6c07d576481a2df29e26c4ada41b",
+      "content_encoding": "",
+      "snapshot": "dichua.html",
+      "independence_group": "dichua"
+    },
+    {
+      "id": "play",
+      "url": "https://play.google.com/store/apps/details?hl=vi&id=vn.kyoz.pagodaonline",
+      "tier": "A",
+      "note": "Trang nhà phát triển trên Google Play",
+      "fetched_at": "2026-11-04T00:36:03.074552+00:00",
+      "status": 200,
+      "final_url": "https://play.google.com/store/apps/details?hl=vi&id=vn.kyoz.pagodaonline",
+      "bytes": 1338838,
+      "sha256": "5cc77d523ccd759fc67cd7f510c1b0f354588bb13fcf5809c11f31bb19575215",
+      "content_encoding": "",
+      "snapshot": "play.html",
+      "independence_group": "play"
+    },
+    {
+      "id": "templerpc",
+      "url": "https://github.com/zane-tv/tiktok-live-temple-rpc",
+      "tier": "A",
+      "note": "Kho mã công khai được nguồn thứ cấp dẫn, cần kiểm giấy phép",
+      "fetched_at": "2026-11-04T00:36:03.172848+00:00",
+      "status": 200,
+      "final_url": "https://github.com/zane-tv/tiktok-live-temple-rpc",
+      "bytes": 287142,
+      "sha256": "9551816485556d85f0881c9babfd23a5f2f90e9c18427883339d6c0f66f73afc",
+      "content_encoding": "",
+      "snapshot": "templerpc.html",
+      "independence_group": "templerpc"
+    },
+    {
+      "id": "wcag",
+      "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "tier": "A",
+      "note": "Chuẩn khả năng tiếp cận W3C",
+      "fetched_at": "2026-11-04T00:36:03.237912+00:00",
+      "status": 200,
+      "final_url": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "bytes": 456994,
+      "sha256": "ed61b139cdf28bff4393801a7476f0238f837aa91cda1418faa6bda162f34cd3",
+      "content_encoding": "",
+      "snapshot": "wcag.html",
+      "independence_group": "wcag"
+    },
+    {
+      "id": "audio",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "tier": "A",
+      "note": "Tài liệu nền tảng Web Audio",
+      "fetched_at": "2026-11-04T00:36:03.394393+00:00",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "bytes": 194384,
+      "sha256": "c9b600ff7ddf8c431bf06b56150acf7c2d985e3759c33dad9939d25352b50102",
+      "content_encoding": "",
+      "snapshot": "audio.html",
+      "independence_group": "audio"
+    },
+    {
+      "id": "visibility",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API",
+      "tier": "A",
+      "note": "Tài liệu nền tảng trạng thái tab",
+      "fetched_at": "2026-11-04T00:36:03.528047+00:00",
+      "status": 200,
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API",
+      "bytes": 158548,
+      "sha256": "cc0509df6af79c7b5ab2d6f2d57ebcd3085bb406afc8841d1eb24270d717939c",
+      "content_encoding": "",
+      "snapshot": "visibility.html",
+      "independence_group": "visibility"
+    }
+  ],
+  "registry": {
+    "aggregates": {
+      "cells_by_state": {
+        "corroborated": 1,
+        "disputed": 1,
+        "null": 85,
+        "sourced": 23
+      },
+      "coverage_pct": 100.0,
+      "n_entities": 11,
+      "rollup": {
+        "Livestream interaction software": 1,
+        "Mobile Buddhist quote collection": 1,
+        "News-reported observations": 1,
+        "Online shrine content": 1,
+        "Press quotation of religious representative": 1,
+        "Religious institution information and online practice links": 1,
+        "Vietnamese gamified temple": 1,
+        "Vietnamese ritual interface": 1,
+        "Vietnamese temple and cultural utilities": 1,
+        "Vietnamese temple interface": 1,
+        "interactive virtual temple": 1
+      },
+      "rollup_field": "space_type",
+      "universe_estimate": 11
+    },
+    "registry": {
+      "Chùa Giác Ngộ website": {
+        "entity_type": "Religious institution information and online practice links",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "giacngo",
+                "tier": "A",
+                "value": "Online temple visit listed"
+              }
+            ],
+            "state": "sourced",
+            "value": "Online temple visit listed"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "giacngo",
+                "tier": "A",
+                "value": "Religious institution information and online practice links"
+              }
+            ],
+            "state": "sourced",
+            "value": "Religious institution information and online practice links"
+          }
+        }
+      },
+      "Chùa Online by Kyoz": {
+        "entity_type": "Mobile Buddhist quote collection",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "play",
+                "tier": "A",
+                "value": "Contains ads as labelled by app store"
+              }
+            ],
+            "state": "sourced",
+            "value": "Contains ads as labelled by app store"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "play",
+                "tier": "A",
+                "value": "Mobile Buddhist quote collection"
+              }
+            ],
+            "state": "sourced",
+            "value": "Mobile Buddhist quote collection"
+          }
+        }
+      },
+      "Con Đường Giác Ngộ": {
+        "entity_type": "Online shrine content",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "state": "null",
+            "value": null
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "conduong",
+                "tier": "A",
+                "value": "Online shrine content"
+              }
+            ],
+            "state": "sourced",
+            "value": "Online shrine content"
+          }
+        }
+      },
+      "Lễ Chùa Online": {
+        "entity_type": "Vietnamese ritual interface",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "lechua",
+                "tier": "A",
+                "value": "AI-assisted prayer wording advertised"
+              }
+            ],
+            "state": "sourced",
+            "value": "AI-assisted prayer wording advertised"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "lechua",
+                "tier": "A",
+                "value": "Vietnamese ritual interface"
+              }
+            ],
+            "state": "sourced",
+            "value": "Vietnamese ritual interface"
+          }
+        }
+      },
+      "Nhân số": {
+        "entity_type": "Vietnamese temple and cultural utilities",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "nhanso",
+                "tier": "A",
+                "value": "No-account web entry advertised"
+              }
+            ],
+            "state": "sourced",
+            "value": "No-account web entry advertised"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "nhanso",
+                "tier": "A",
+                "value": "Vietnamese temple and cultural utilities"
+              }
+            ],
+            "state": "sourced",
+            "value": "Vietnamese temple and cultural utilities"
+          }
+        }
+      },
+      "Niibook": {
+        "entity_type": "Vietnamese gamified temple",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Virtual items, shop and merit points in interface"
+              }
+            ],
+            "state": "sourced",
+            "value": "Virtual items, shop and merit points in interface"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Vietnamese gamified temple"
+              }
+            ],
+            "state": "sourced",
+            "value": "Vietnamese gamified temple"
+          }
+        }
+      },
+      "Religious perspective": {
+        "entity_type": "Press quotation of religious representative",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "phapluat",
+                "tier": "B",
+                "value": "Online practices do not fully replace temple practice"
+              }
+            ],
+            "state": "sourced",
+            "value": "Online practices do not fully replace temple practice"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "phapluat",
+                "tier": "B",
+                "value": "Press quotation of religious representative"
+              }
+            ],
+            "state": "sourced",
+            "value": "Press quotation of religious representative"
+          }
+        }
+      },
+      "Sansa": {
+        "entity_type": "interactive virtual temple",
+        "fields": {
+          "creator": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "hankook",
+                "tier": "B",
+                "value": "Park Jin-won"
+              },
+              {
+                "extraction": "normalized",
+                "source": "vnexpress",
+                "tier": "B",
+                "value": "Park Jin-won"
+              }
+            ],
+            "state": "corroborated",
+            "value": "Park Jin-won"
+          },
+          "feature": {
+            "state": "null",
+            "value": null
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "hankook",
+                "tier": "B",
+                "value": "2026-10-26"
+              },
+              {
+                "extraction": "normalized",
+                "source": "vnexpress",
+                "tier": "B",
+                "value": "2026-10-29"
+              }
+            ],
+            "state": "disputed",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "hankook",
+                "tier": "B",
+                "value": "reported, not independently measured"
+              }
+            ],
+            "state": "sourced",
+            "value": "reported, not independently measured"
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "vnexpress",
+                "tier": "B",
+                "value": 30
+              }
+            ],
+            "state": "sourced",
+            "value": 30
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "hankook",
+                "tier": "B",
+                "value": "Hankook Ilbo translation; not independent"
+              }
+            ],
+            "state": "sourced",
+            "value": "Hankook Ilbo translation; not independent"
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "hankook",
+                "tier": "B",
+                "value": "interactive virtual temple"
+              }
+            ],
+            "state": "sourced",
+            "value": "interactive virtual temple"
+          }
+        }
+      },
+      "TikTok temple RPC repository": {
+        "entity_type": "Livestream interaction software",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "templerpc",
+                "tier": "A",
+                "value": "Bun.js and ZeroTTS described by repository"
+              }
+            ],
+            "state": "sourced",
+            "value": "Bun.js and ZeroTTS described by repository"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "templerpc",
+                "tier": "A",
+                "value": "Livestream interaction software"
+              }
+            ],
+            "state": "sourced",
+            "value": "Livestream interaction software"
+          }
+        }
+      },
+      "Vietnamese online temple trend": {
+        "entity_type": "News-reported observations",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "znews",
+                "tier": "B",
+                "value": "Paid virtual offerings and ads reported"
+              }
+            ],
+            "state": "sourced",
+            "value": "Paid virtual offerings and ads reported"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "znews",
+                "tier": "B",
+                "value": "News-reported observations"
+              }
+            ],
+            "state": "sourced",
+            "value": "News-reported observations"
+          }
+        }
+      },
+      "dichua.app": {
+        "entity_type": "Vietnamese temple interface",
+        "fields": {
+          "creator": {
+            "state": "null",
+            "value": null
+          },
+          "feature": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "Shop and leaderboard displayed"
+              }
+            ],
+            "state": "sourced",
+            "value": "Shop and leaderboard displayed"
+          },
+          "independent_traffic_verified": {
+            "state": "null",
+            "value": null
+          },
+          "launch_date": {
+            "state": "null",
+            "value": null
+          },
+          "million_visits_press_claim": {
+            "state": "null",
+            "value": null
+          },
+          "monthly_cost_verified": {
+            "state": "null",
+            "value": null
+          },
+          "prototype_minutes_reported": {
+            "state": "null",
+            "value": null
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          },
+          "source_lineage": {
+            "state": "null",
+            "value": null
+          },
+          "space_type": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "Vietnamese temple interface"
+              }
+            ],
+            "state": "sourced",
+            "value": "Vietnamese temple interface"
+          }
+        }
+      }
+    }
+  },
+  "claims": [
+    {
+      "entity": "Sansa",
+      "field": "creator",
+      "value": "Park Jin-won",
+      "evidence_span": "Park Jin-won",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://vnexpress.net/tac-gia-chua-online-khuay-dao-mang-voi-30-phut-lap-trinh-ai-5140379.html",
+        "fetched_at": "2026-11-04T00:36:02.107838+00:00",
+        "snapshot": "vnexpress.html",
+        "source": "vnexpress"
+      }
+    },
+    {
+      "entity": "Sansa",
+      "field": "creator",
+      "value": "Park Jin-won",
+      "evidence_span": "박진원(26)씨",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://www.hankookilbo.com/news/article/A2026110209300002105",
+        "fetched_at": "2026-11-04T00:36:02.108229+00:00",
+        "snapshot": "hankook.html",
+        "source": "hankook"
+      }
+    },
+    {
+      "entity": "Sansa",
+      "field": "launch_date",
+      "value": "2026-10-29",
+      "evidence_span": "Sansa ra mắt ngày 29/10",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://vnexpress.net/tac-gia-chua-online-khuay-dao-mang-voi-30-phut-lap-trinh-ai-5140379.html",
+        "fetched_at": "2026-11-04T00:36:02.107838+00:00",
+        "snapshot": "vnexpress.html",
+        "source": "vnexpress"
+      }
+    },
+    {
+      "entity": "Sansa",
+      "field": "launch_date",
+      "value": "2026-10-26",
+      "evidence_span": "출시된 건 지난달 26일.",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://www.hankookilbo.com/news/article/A2026110209300002105",
+        "fetched_at": "2026-11-04T00:36:02.108229+00:00",
+        "snapshot": "hankook.html",
+        "source": "hankook"
+      }
+    },
+    {
+      "entity": "Sansa",
+      "field": "prototype_minutes_reported",
+      "value": 30,
+      "evidence_span": "khoảng nửa giờ",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://vnexpress.net/tac-gia-chua-online-khuay-dao-mang-voi-30-phut-lap-trinh-ai-5140379.html",
+        "fetched_at": "2026-11-04T00:36:02.107838+00:00",
+        "snapshot": "vnexpress.html",
+        "source": "vnexpress"
+      },
+      "interpretation_note": "Thời gian tác giả tự thuật về bản hoạt động đầu tiên; không phải phép đo độc lập toàn chu trình."
+    },
+    {
+      "entity": "Sansa",
+      "field": "million_visits_press_claim",
+      "value": "reported, not independently measured",
+      "evidence_span": "누적 방문객 100만 명",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://www.hankookilbo.com/news/article/A2026110209300002105",
+        "fetched_at": "2026-11-04T00:36:02.108229+00:00",
+        "snapshot": "hankook.html",
+        "source": "hankook"
+      },
+      "interpretation_note": "Lượt truy cập tích lũy báo chí thuật lại; không suy thành unique users, DAU hay CCU."
+    },
+    {
+      "entity": "Sansa",
+      "field": "space_type",
+      "value": "interactive virtual temple",
+      "evidence_span": "온라인 사찰",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://www.hankookilbo.com/news/article/A2026110209300002105",
+        "fetched_at": "2026-11-04T00:36:02.108229+00:00",
+        "snapshot": "hankook.html",
+        "source": "hankook"
+      }
+    },
+    {
+      "entity": "Sansa",
+      "field": "source_lineage",
+      "value": "Hankook Ilbo translation; not independent",
+      "evidence_span": "translated by a generative AI system",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://www.koreatimes.co.kr/southkorea/20261103/ai-built-virtual-buddhist-temple-draws-1-mil-visitors-in-less-than-a-week",
+        "fetched_at": "2026-11-04T00:36:02.108380+00:00",
+        "snapshot": "koreatimes.html",
+        "source": "hankook"
+      },
+      "interpretation_note": "Korea Times tự ghi dịch từ Hankook Ilbo. Không dùng để nâng corroboration."
+    },
+    {
+      "entity": "Lễ Chùa Online",
+      "field": "space_type",
+      "value": "Vietnamese ritual interface",
+      "evidence_span": "Lễ Chùa Online",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://lechuaonline.com/",
+        "fetched_at": "2026-11-04T00:36:02.258950+00:00",
+        "snapshot": "lechua.html",
+        "source": "lechua"
+      }
+    },
+    {
+      "entity": "Lễ Chùa Online",
+      "field": "feature",
+      "value": "AI-assisted prayer wording advertised",
+      "evidence_span": "AI sẽ hỗ trợ bạn viết lại lời nguyện",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://lechuaonline.com/",
+        "fetched_at": "2026-11-04T00:36:02.258950+00:00",
+        "snapshot": "lechua.html",
+        "source": "lechua"
+      },
+      "interpretation_note": "Tuyên bố chức năng trên trang; chưa thử lời gọi model hoặc kiểm chất lượng."
+    },
+    {
+      "entity": "Niibook",
+      "field": "space_type",
+      "value": "Vietnamese gamified temple",
+      "evidence_span": "Chùa Online",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:36:02.351481+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      }
+    },
+    {
+      "entity": "Niibook",
+      "field": "feature",
+      "value": "Virtual items, shop and merit points in interface",
+      "evidence_span": "Bảng Vàng Công Đức",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:36:02.351481+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "interpretation_note": "Quan sát UI văn bản; không giao dịch, không kiểm doanh thu."
+    },
+    {
+      "entity": "dichua.app",
+      "field": "space_type",
+      "value": "Vietnamese temple interface",
+      "evidence_span": "Chùa Liên Hoa",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:36:02.912513+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      }
+    },
+    {
+      "entity": "dichua.app",
+      "field": "feature",
+      "value": "Shop and leaderboard displayed",
+      "evidence_span": "Xếp hạng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:36:02.912513+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "interpretation_note": "Không chứng minh người online hay tài khoản xuất hiện trong HTML là người thật."
+    },
+    {
+      "entity": "Nhân số",
+      "field": "space_type",
+      "value": "Vietnamese temple and cultural utilities",
+      "evidence_span": "Đi chùa online",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://nhanso.vn/di-chua-online/",
+        "fetched_at": "2026-11-04T00:36:02.387389+00:00",
+        "snapshot": "nhanso.html",
+        "source": "nhanso"
+      }
+    },
+    {
+      "entity": "Nhân số",
+      "field": "feature",
+      "value": "No-account web entry advertised",
+      "evidence_span": "Không cần tài khoản",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://nhanso.vn/di-chua-online/",
+        "fetched_at": "2026-11-04T00:36:02.387389+00:00",
+        "snapshot": "nhanso.html",
+        "source": "nhanso"
+      }
+    },
+    {
+      "entity": "Chùa Giác Ngộ website",
+      "field": "space_type",
+      "value": "Religious institution information and online practice links",
+      "evidence_span": "Chùa Giác Ngộ",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://giacngo.chuavn.com/",
+        "fetched_at": "2026-11-04T00:33:49.100231+00:00",
+        "snapshot": "giacngo.html",
+        "source": "giacngo"
+      }
+    },
+    {
+      "entity": "Chùa Giác Ngộ website",
+      "field": "feature",
+      "value": "Online temple visit listed",
+      "evidence_span": "Viếng chùa online",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://giacngo.chuavn.com/",
+        "fetched_at": "2026-11-04T00:33:49.100231+00:00",
+        "snapshot": "giacngo.html",
+        "source": "giacngo"
+      }
+    },
+    {
+      "entity": "Con Đường Giác Ngộ",
+      "field": "space_type",
+      "value": "Online shrine content",
+      "evidence_span": "Đi chùa online",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://conduonggiacngo.com/chanh-dien",
+        "fetched_at": "2026-11-04T00:36:02.677916+00:00",
+        "snapshot": "conduong.html",
+        "source": "conduong"
+      }
+    },
+    {
+      "entity": "Chùa Online by Kyoz",
+      "field": "space_type",
+      "value": "Mobile Buddhist quote collection",
+      "evidence_span": "Chùa Online: Lời Phật dạy",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://play.google.com/store/apps/details?hl=vi&id=vn.kyoz.pagodaonline",
+        "fetched_at": "2026-11-04T00:36:03.074552+00:00",
+        "snapshot": "play.html",
+        "source": "play"
+      }
+    },
+    {
+      "entity": "Chùa Online by Kyoz",
+      "field": "feature",
+      "value": "Contains ads as labelled by app store",
+      "evidence_span": "Chứa quảng cáo",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://play.google.com/store/apps/details?hl=vi&id=vn.kyoz.pagodaonline",
+        "fetched_at": "2026-11-04T00:36:03.074552+00:00",
+        "snapshot": "play.html",
+        "source": "play"
+      }
+    },
+    {
+      "entity": "TikTok temple RPC repository",
+      "field": "space_type",
+      "value": "Livestream interaction software",
+      "evidence_span": "TikTok Live RPC",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://github.com/zane-tv/tiktok-live-temple-rpc",
+        "fetched_at": "2026-11-04T00:36:03.172848+00:00",
+        "snapshot": "templerpc.html",
+        "source": "templerpc"
+      }
+    },
+    {
+      "entity": "TikTok temple RPC repository",
+      "field": "feature",
+      "value": "Bun.js and ZeroTTS described by repository",
+      "evidence_span": "Bun.js + ZeroTTS",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://github.com/zane-tv/tiktok-live-temple-rpc",
+        "fetched_at": "2026-11-04T00:36:03.172848+00:00",
+        "snapshot": "templerpc.html",
+        "source": "templerpc"
+      },
+      "interpretation_note": "Read-only repository inspection, no code reused and no license assumption."
+    },
+    {
+      "entity": "Vietnamese online temple trend",
+      "field": "space_type",
+      "value": "News-reported observations",
+      "evidence_span": "Gần 3.000 người",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://znews.vn/gan-3000-nguoi-len-web-di-chua-online-luc-23h-post1693824.html",
+        "fetched_at": "2026-11-04T00:36:02.108509+00:00",
+        "snapshot": "znews.html",
+        "source": "znews"
+      },
+      "interpretation_note": "Khoảng 23h 2/11 do phóng viên ghi nhận; chưa có audit analytics."
+    },
+    {
+      "entity": "Vietnamese online temple trend",
+      "field": "feature",
+      "value": "Paid virtual offerings and ads reported",
+      "evidence_span": "xem quảng cáo",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://znews.vn/gan-3000-nguoi-len-web-di-chua-online-luc-23h-post1693824.html",
+        "fetched_at": "2026-11-04T00:36:02.108509+00:00",
+        "snapshot": "znews.html",
+        "source": "znews"
+      },
+      "interpretation_note": "Dữ liệu định tính từ bài báo; không suy thị phần."
+    },
+    {
+      "entity": "Religious perspective",
+      "field": "space_type",
+      "value": "Press quotation of religious representative",
+      "evidence_span": "Thượng tọa Thích Minh Nhẫn",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://baophapluat.vn/canh-bao-nguy-co-truc-loi-tu-trao-luu-di-chua-online.html",
+        "fetched_at": "2026-11-04T00:36:02.230165+00:00",
+        "snapshot": "phapluat.html",
+        "source": "phapluat"
+      }
+    },
+    {
+      "entity": "Religious perspective",
+      "field": "feature",
+      "value": "Online practices do not fully replace temple practice",
+      "evidence_span": "không thể thay thế hoàn toàn",
+      "extraction": "normalized",
+      "tier": "B",
+      "capture": {
+        "url": "https://baophapluat.vn/canh-bao-nguy-co-truc-loi-tu-trao-luu-di-chua-online.html",
+        "fetched_at": "2026-11-04T00:36:02.230165+00:00",
+        "snapshot": "phapluat.html",
+        "source": "phapluat"
+      },
+      "interpretation_note": "Quan điểm được báo thuật lại, không tự gán thành kết luận pháp lý."
+    }
+  ]
+}

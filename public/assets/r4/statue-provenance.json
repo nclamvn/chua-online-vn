@@ -1,0 +1,83 @@
+{
+  "path": "public/assets/r4/statue.glb",
+  "bytes": 4024280,
+  "sha256": "a20636afe8bd31a5e17301768bae02c9d96a1bcbf0df22be412e52eeb67f9962",
+  "triangles": 64000,
+  "source_bytes": 5492196,
+  "source_md5": "a00f6c35ae853c830faff61404265c5c",
+  "source_bounds": {
+    "min": [
+      -0.05126500129699707,
+      -0.22751800715923293,
+      -0.7311099767684937
+    ],
+    "max": [
+      0.3956269919872284,
+      0.2789700031280519,
+      -0.4787789881229401
+    ]
+  },
+  "normalized_bounds": {
+    "min": [
+      -0.4411603137302774,
+      0,
+      -0.24910733359782708
+    ],
+    "max": [
+      0.4411603137302774,
+      1,
+      0.24910733359782697
+    ]
+  },
+  "units": "Height1 including original pedestal; bottomY0, centeredXZ. Set outer scale3.1 for total statue+pedestal height3.1m.",
+  "up": "+Y",
+  "front": "+Z (knees and face project toward positiveZ relative to rear/head center)",
+  "materials": "Original1K scan textures preserved, legacy KHR_materials_pbrSpecularGlossiness converted by glTF Transform metalRough to supported metal/rough + IOR/specular. No repaint, no geometry simplification.",
+  "extensions": [
+    "EXT_meshopt_compression",
+    "KHR_materials_ior",
+    "KHR_materials_specular",
+    "KHR_mesh_quantization"
+  ],
+  "textures": [
+    {
+      "size": [
+        1024,
+        1024
+      ],
+      "mime": "image/jpeg",
+      "bytes": 901963
+    },
+    {
+      "size": [
+        1024,
+        1024
+      ],
+      "mime": "image/png",
+      "bytes": 1104560
+    },
+    {
+      "size": [
+        1024,
+        1024
+      ],
+      "mime": "image/png",
+      "bytes": 439163
+    },
+    {
+      "size": [
+        1024,
+        1024
+      ],
+      "mime": "image/png",
+      "bytes": 1114670
+    }
+  ],
+  "license": "CC0-1.0",
+  "credit": "Seated Buddha, date unknown. Siam/Thailand. Minneapolis Institute of Art, artsmia. Model UID c1c3d5a4878c42778eceded83673dea7. CC0. GLB distributed by Zenodo/Objaverse1.0; model license confirmed against primary museum account metadata.",
+  "source_page": "https://sketchfab.com/3d-models/seated-buddha-date-unknown-c1c3d5a4878c42778eceded83673dea7",
+  "primary_license_metadata": "https://api.sketchfab.com/v3/models/c1c3d5a4878c42778eceded83673dea7",
+  "object_page": "https://collections.artsmia.org/art/12487/seated-buddha-siam",
+  "mirror": "https://zenodo.org/records/10337923",
+  "context": "Museum reproduction in a fictional Vietnamese temple; not a Vietnamese artifact and not a consecrated/authorized ritual object."
+}

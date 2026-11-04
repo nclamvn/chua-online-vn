@@ -1,0 +1,525 @@
+{
+  "version": "hien-an-reflection-1",
+  "note": "Tên/mẫu hào có nguồn; toàn bộ câu gợi mở và hành động là nội dung nguyên tác cho Hiên An, không phải lời cổ dịch hay dự báo.",
+  "sources": [
+    "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+    "https://www.unicode.org/charts/PDF/U4DC0.pdf",
+    "https://iching.sourceforge.net/Documentation/design/design-one/index.html",
+    "https://vi.wikisource.org/wiki/Kinh_Dịch/Chu_Dịch_thượng_kinh",
+    "https://vi.wikisource.org/wiki/Kinh_Dịch/Chu_Dịch_hạ_kinh"
+  ],
+  "hexagrams": [
+    {
+      "number": 1,
+      "name": "Kiền",
+      "bits": "111111",
+      "theme": "Chủ động",
+      "reflection": "Bạn có thể bắt đầu điều gì bằng một bước nhỏ nằm trong khả năng của mình?",
+      "practice": "Chọn một việc có thể làm trong15phút và ghi lại bước đầu tiên."
+    },
+    {
+      "number": 2,
+      "name": "Khôn",
+      "bits": "000000",
+      "theme": "Lắng nghe",
+      "reflection": "Bạn đã dành đủ chỗ cho ý kiến khác với mình chưa?",
+      "practice": "Nghe một người nói trọn ý trước khi trả lời."
+    },
+    {
+      "number": 3,
+      "name": "Truân",
+      "bits": "100010",
+      "theme": "Khởi đầu",
+      "reflection": "Điều gì đang khó vì nó còn mới, thay vì vì bạn không đủ khả năng?",
+      "practice": "Chia việc đang làm thành ba bước, chỉ thực hiện bước đầu."
+    },
+    {
+      "number": 4,
+      "name": "Mông",
+      "bits": "010001",
+      "theme": "Học hỏi",
+      "reflection": "Có câu hỏi nào bạn chưa dám hỏi?",
+      "practice": "Viết câu hỏi ấy ra và chọn một người có thể giúp bạn hiểu thêm."
+    },
+    {
+      "number": 5,
+      "name": "Nhu",
+      "bits": "111010",
+      "theme": "Kiên nhẫn",
+      "reflection": "Bạn đang chờ điều gì, và phần nào vẫn thuộc quyền chủ động của bạn?",
+      "practice": "Ấn định một mốc kiểm tra lại, rồi quay về một việc vừa sức."
+    },
+    {
+      "number": 6,
+      "name": "Tụng",
+      "bits": "010111",
+      "theme": "Bất đồng",
+      "reflection": "Điều hai bên cần có thực sự đối lập nhau không?",
+      "practice": "Viết riêng nhu cầu của bạn và điều bạn đoán người kia cần."
+    },
+    {
+      "number": 7,
+      "name": "Sư",
+      "bits": "010000",
+      "theme": "Kỷ luật",
+      "reflection": "Một cam kết nhỏ nào giúp cả nhóm cùng đi được?",
+      "practice": "Thống nhất một việc, một người phụ trách và một thời điểm rõ ràng."
+    },
+    {
+      "number": 8,
+      "name": "Tỵ",
+      "bits": "000010",
+      "theme": "Gắn kết",
+      "reflection": "Ai khiến bạn có cảm giác được lắng nghe?",
+      "practice": "Gửi một lời hỏi thăm không kèm yêu cầu."
+    },
+    {
+      "number": 9,
+      "name": "Tiểu Súc",
+      "bits": "111011",
+      "theme": "Tích lũy",
+      "reflection": "Những việc rất nhỏ đang âm thầm tạo nên thay đổi nào?",
+      "practice": "Ghi lại một việc bạn đã đều đặn làm trong tuần qua."
+    },
+    {
+      "number": 10,
+      "name": "Lý",
+      "bits": "110111",
+      "theme": "Cẩn trọng",
+      "reflection": "Có bước nào cần nhìn kỹ trước khi tiến thêm?",
+      "practice": "Kiểm lại một chi tiết dễ bị bỏ sót, rồi mới quyết định."
+    },
+    {
+      "number": 11,
+      "name": "Thái",
+      "bits": "111000",
+      "theme": "Thông suốt",
+      "reflection": "Khi mọi việc thuận hơn, bạn muốn dành khoảng trống ấy cho ai?",
+      "practice": "Giữ một thói quen đã giúp bạn đi qua giai đoạn khó."
+    },
+    {
+      "number": 12,
+      "name": "Bĩ",
+      "bits": "000111",
+      "theme": "Khoảng lặng",
+      "reflection": "Một cánh cửa đang khép có đang cho bạn thời gian sắp lại điều khác?",
+      "practice": "Tạm gác một việc chưa thể thay đổi và chọn việc có thể làm."
+    },
+    {
+      "number": 13,
+      "name": "Đồng Nhân",
+      "bits": "101111",
+      "theme": "Đồng hành",
+      "reflection": "Điểm chung nào có thể nối những người đang khác nhau?",
+      "practice": "Bắt đầu cuộc trò chuyện từ điều cả hai cùng quan tâm."
+    },
+    {
+      "number": 14,
+      "name": "Đại Hữu",
+      "bits": "111101",
+      "theme": "Nguồn lực",
+      "reflection": "Trong những điều mình có, điều nào đang chưa được dùng đúng chỗ?",
+      "practice": "Sắp lại một nguồn lực: thời gian, vật dụng hoặc sự giúp đỡ."
+    },
+    {
+      "number": 15,
+      "name": "Khiêm",
+      "bits": "001000",
+      "theme": "Khiêm nhường",
+      "reflection": "Bạn có thể nhận một lời góp ý mà không phải thu nhỏ giá trị của mình không?",
+      "practice": "Cảm ơn một góp ý cụ thể và thử sửa một điểm."
+    },
+    {
+      "number": 16,
+      "name": "Dự",
+      "bits": "000100",
+      "theme": "Hứng khởi",
+      "reflection": "Niềm hứng khởi nào đáng được chuyển thành một nhịp làm việc bền?",
+      "practice": "Ghi ý tưởng, rồi dành một khoảng thời gian thực tế cho nó."
+    },
+    {
+      "number": 17,
+      "name": "Tùy",
+      "bits": "100110",
+      "theme": "Linh hoạt",
+      "reflection": "Bạn đang giữ mục tiêu hay đang giữ một cách làm đã cũ?",
+      "practice": "Thử một cách khác với quy mô nhỏ trước khi thay đổi lớn."
+    },
+    {
+      "number": 18,
+      "name": "Cổ",
+      "bits": "011001",
+      "theme": "Sửa đổi",
+      "reflection": "Có điều gì cần được sửa thay vì tiếp tục che đi?",
+      "practice": "Nhận một lỗi cụ thể và đề xuất bước khắc phục."
+    },
+    {
+      "number": 19,
+      "name": "Lâm",
+      "bits": "110000",
+      "theme": "Tiếp cận",
+      "reflection": "Bạn muốn đến gần điều gì bằng sự tò mò hơn là vội kết luận?",
+      "practice": "Hỏi thêm một câu mở trong cuộc trò chuyện hôm nay."
+    },
+    {
+      "number": 20,
+      "name": "Quán",
+      "bits": "000011",
+      "theme": "Quan sát",
+      "reflection": "Nếu chậm lại, bạn nhìn thấy chi tiết nào khác?",
+      "practice": "Quan sát một nơi quen thuộc trong hai phút, không dùng điện thoại."
+    },
+    {
+      "number": 21,
+      "name": "Phệ hạp",
+      "bits": "100101",
+      "theme": "Rõ ràng",
+      "reflection": "Ranh giới nào cần được nói rõ để mọi người dễ hiểu nhau hơn?",
+      "practice": "Viết một yêu cầu bằng lời cụ thể, có thể thực hiện được."
+    },
+    {
+      "number": 22,
+      "name": "Bí",
+      "bits": "101001",
+      "theme": "Giản dị",
+      "reflection": "Điều gì vẫn có giá trị khi bỏ bớt lớp trình bày bên ngoài?",
+      "practice": "Bỏ một chi tiết không giúp ích cho việc bạn đang làm."
+    },
+    {
+      "number": 23,
+      "name": "Bác",
+      "bits": "000001",
+      "theme": "Buông bớt",
+      "reflection": "Bạn đang mang theo việc nào chỉ vì đã mang nó quá lâu?",
+      "practice": "Chọn một cam kết có thể kết thúc hoặc thương lượng lại."
+    },
+    {
+      "number": 24,
+      "name": "Phục",
+      "bits": "100000",
+      "theme": "Trở về",
+      "reflection": "Thói quen nhỏ nào giúp bạn có cảm giác trở về?",
+      "practice": "Dành vài phút cho việc ấy, không cần làm hoàn hảo."
+    },
+    {
+      "number": 25,
+      "name": "Vô Vọng",
+      "bits": "100111",
+      "theme": "Chân thật",
+      "reflection": "Bạn muốn nói điều gì bằng giọng bình thường của mình?",
+      "practice": "Viết một câu thành thật, không tô đậm cũng không hạ thấp."
+    },
+    {
+      "number": 26,
+      "name": "Đại Súc",
+      "bits": "111001",
+      "theme": "Rèn luyện",
+      "reflection": "Năng lực nào cần được bồi đắp trước bước tiếp theo?",
+      "practice": "Luyện một phần việc cụ thể thay vì chỉ đọc thêm về nó."
+    },
+    {
+      "number": 27,
+      "name": "Di",
+      "bits": "100001",
+      "theme": "Nuôi dưỡng",
+      "reflection": "Điều đang nuôi bạn là gì: thức ăn, lời nói hay khoảng nghỉ?",
+      "practice": "Chăm một nhu cầu cơ bản đã bị bỏ qua hôm nay."
+    },
+    {
+      "number": 28,
+      "name": "Đại Quá",
+      "bits": "011110",
+      "theme": "Gánh vác",
+      "reflection": "Gánh nặng nào có thể được chia sẻ?",
+      "practice": "Nói rõ một việc bạn cần giúp, với một người cụ thể."
+    },
+    {
+      "number": 29,
+      "name": "Tập Khảm",
+      "bits": "010010",
+      "theme": "Thử thách",
+      "reflection": "Khi đường đi chưa dễ, điều gì giúp bạn giữ nhịp?",
+      "practice": "Chọn một điểm tựa nhỏ và kiểm lại những việc thiết yếu."
+    },
+    {
+      "number": 30,
+      "name": "Ly",
+      "bits": "101101",
+      "theme": "Sáng tỏ",
+      "reflection": "Sự rõ ràng nào đang thiếu trong một quyết định?",
+      "practice": "Tách điều đã biết khỏi điều còn phải hỏi thêm."
+    },
+    {
+      "number": 31,
+      "name": "Hàm",
+      "bits": "001110",
+      "theme": "Lắng cảm",
+      "reflection": "Cảm xúc đang nhắc bạn về nhu cầu nào?",
+      "practice": "Gọi tên cảm xúc trước khi chọn hành động."
+    },
+    {
+      "number": 32,
+      "name": "Hằng",
+      "bits": "011100",
+      "theme": "Bền bỉ",
+      "reflection": "Bạn muốn giữ điều gì đủ lâu để thấy nó trưởng thành?",
+      "practice": "Chọn nhịp thực hiện nhỏ hơn nhưng có thể lặp lại."
+    },
+    {
+      "number": 33,
+      "name": "Độn",
+      "bits": "001111",
+      "theme": "Lùi một bước",
+      "reflection": "Lùi lại một chút có thể giúp bạn bảo toàn điều gì?",
+      "practice": "Hoãn một phản ứng vội và dành một khoảng nghỉ."
+    },
+    {
+      "number": 34,
+      "name": "Đại Tráng",
+      "bits": "111100",
+      "theme": "Sức mạnh",
+      "reflection": "Sức mạnh của bạn có thể khiến ai cảm thấy được nâng đỡ?",
+      "practice": "Dùng một khả năng của mình để giúp một việc cụ thể."
+    },
+    {
+      "number": 35,
+      "name": "Tấn",
+      "bits": "000101",
+      "theme": "Tiến bộ",
+      "reflection": "Tiến bộ nào đáng được ghi nhận dù còn nhỏ?",
+      "practice": "Ghi lại một điều đã tốt hơn so với chính bạn trước đây."
+    },
+    {
+      "number": 36,
+      "name": "Minh Di",
+      "bits": "101000",
+      "theme": "Giữ ánh sáng",
+      "reflection": "Có điều quý giá nào cần được giữ yên trước khi chia sẻ?",
+      "practice": "Bảo vệ một khoảng tập trung hoặc một chuyện riêng của mình."
+    },
+    {
+      "number": 37,
+      "name": "Gia Nhân",
+      "bits": "101011",
+      "theme": "Mái nhà",
+      "reflection": "Trong mái nhà của mình, ai đang cần được hỏi han?",
+      "practice": "Làm một việc chăm sóc nhỏ mà không đợi lời nhắc."
+    },
+    {
+      "number": 38,
+      "name": "Khuê",
+      "bits": "110101",
+      "theme": "Khác biệt",
+      "reflection": "Sự khác biệt nào có thể tồn tại mà không cần ai thua?",
+      "practice": "Tìm một điểm có thể tôn trọng dù chưa đồng ý."
+    },
+    {
+      "number": 39,
+      "name": "Kiển",
+      "bits": "001010",
+      "theme": "Vướng mắc",
+      "reflection": "Vướng mắc nằm ở thiếu thông tin, thiếu sức hay thiếu lối đi?",
+      "practice": "Gọi đúng một trở ngại trước khi tìm cách giải quyết."
+    },
+    {
+      "number": 40,
+      "name": "Giải",
+      "bits": "010100",
+      "theme": "Gỡ rối",
+      "reflection": "Điều gì sẽ nhẹ hơn nếu được nói ra rõ ràng?",
+      "practice": "Gỡ một nút nhỏ trong một cuộc trao đổi đang bỏ dở."
+    },
+    {
+      "number": 41,
+      "name": "Tổn",
+      "bits": "110001",
+      "theme": "Giảm tải",
+      "reflection": "Bớt một việc nào sẽ trả lại sức cho việc quan trọng hơn?",
+      "practice": "Loại một việc không còn cần thiết khỏi danh sách hôm nay."
+    },
+    {
+      "number": 42,
+      "name": "Ích",
+      "bits": "100011",
+      "theme": "Sẻ chia",
+      "reflection": "Bạn có thể cho đi điều gì mà vẫn giữ được sự cân bằng?",
+      "practice": "Chia sẻ một chút thời gian hoặc hiểu biết trong khả năng."
+    },
+    {
+      "number": 43,
+      "name": "Quải",
+      "bits": "111110",
+      "theme": "Quyết đoán",
+      "reflection": "Bạn đang chờ thêm dữ kiện hay đang tránh lựa chọn?",
+      "practice": "Viết điều kiện đủ để đưa ra quyết định, rồi kiểm lại chúng."
+    },
+    {
+      "number": 44,
+      "name": "Cấu",
+      "bits": "011111",
+      "theme": "Gặp gỡ",
+      "reflection": "Một cuộc gặp mới khiến bạn hiểu thêm điều gì về mình?",
+      "practice": "Giữ sự tò mò và cả ranh giới cá nhân trong cuộc gặp ấy."
+    },
+    {
+      "number": 45,
+      "name": "Tụy",
+      "bits": "000110",
+      "theme": "Tụ hội",
+      "reflection": "Một nhóm người cần điều gì để thực sự có mặt cùng nhau?",
+      "practice": "Dành một khoảng không bị gián đoạn cho cuộc gặp gần nhất."
+    },
+    {
+      "number": 46,
+      "name": "Thăng",
+      "bits": "011000",
+      "theme": "Vươn lên",
+      "reflection": "Bước tiếp theo có thể thấp và chắc đến mức nào?",
+      "practice": "Làm một phần việc nhỏ, hoàn tất rồi mới nhận thêm."
+    },
+    {
+      "number": 47,
+      "name": "Khốn",
+      "bits": "010110",
+      "theme": "Nghỉ ngơi",
+      "reflection": "Cơ thể đang xin bạn dừng lại ở chỗ nào?",
+      "practice": "Nghỉ một khoảng phù hợp và nhờ hỗ trợ nếu cần."
+    },
+    {
+      "number": 48,
+      "name": "Tỉnh",
+      "bits": "011010",
+      "theme": "Nguồn nước",
+      "reflection": "Nguồn nâng đỡ nào vẫn ở đó mà bạn ít để ý?",
+      "practice": "Trở lại với một thói quen hoặc một người khiến bạn vững hơn."
+    },
+    {
+      "number": 49,
+      "name": "Cách",
+      "bits": "101110",
+      "theme": "Đổi mới",
+      "reflection": "Phần nào của cách làm cũ đã không còn phù hợp?",
+      "practice": "Thử đổi một yếu tố và quan sát kết quả thực tế."
+    },
+    {
+      "number": 50,
+      "name": "Đỉnh",
+      "bits": "011101",
+      "theme": "Chăm chút",
+      "reflection": "Điều gì đang cần thêm thời gian để chín?",
+      "practice": "Chăm một công việc đang làm thay vì bắt đầu thêm việc mới."
+    },
+    {
+      "number": 51,
+      "name": "Chấn",
+      "bits": "100100",
+      "theme": "Giật mình",
+      "reflection": "Sau một điều bất ngờ, bạn muốn trở lại nhịp nào trước?",
+      "practice": "Thở theo nhịp tự nhiên, quan sát xung quanh rồi làm việc gần nhất."
+    },
+    {
+      "number": 52,
+      "name": "Cấn",
+      "bits": "001001",
+      "theme": "Tĩnh lặng",
+      "reflection": "Bạn có thể ngồi yên mà không buộc mình giải quyết mọi chuyện không?",
+      "practice": "Dành một phút chỉ cảm nhận bàn chân và hơi thở."
+    },
+    {
+      "number": 53,
+      "name": "Tiệm",
+      "bits": "001011",
+      "theme": "Từng bước",
+      "reflection": "Bạn đang so bước của mình với ai?",
+      "practice": "Chọn một bước phù hợp với hoàn cảnh hiện tại của chính bạn."
+    },
+    {
+      "number": 54,
+      "name": "Quy Muội",
+      "bits": "110100",
+      "theme": "Đúng vị trí",
+      "reflection": "Vai trò nào là của bạn, và điều nào cần để người khác tự chọn?",
+      "practice": "Làm rõ trách nhiệm của mình mà không ôm thay phần của người khác."
+    },
+    {
+      "number": 55,
+      "name": "Phong",
+      "bits": "101100",
+      "theme": "Đủ đầy",
+      "reflection": "Khi cảm thấy đủ, bạn muốn bớt chạy theo điều gì?",
+      "practice": "Ghi ba điều đang có ích trong cuộc sống hiện tại."
+    },
+    {
+      "number": 56,
+      "name": "Lữ",
+      "bits": "001101",
+      "theme": "Lữ hành",
+      "reflection": "Đi xa giúp bạn nhận ra điều gì ở nơi quen thuộc?",
+      "practice": "Giữ một điều quen để tự nâng đỡ khi ở trong hoàn cảnh mới."
+    },
+    {
+      "number": 57,
+      "name": "Tốn",
+      "bits": "011011",
+      "theme": "Mềm mại",
+      "reflection": "Sự mềm mại nào có thể mở ra điều sức ép chưa làm được?",
+      "practice": "Thử đổi cách hỏi trước khi tăng mức thúc ép."
+    },
+    {
+      "number": 58,
+      "name": "Đoái",
+      "bits": "110110",
+      "theme": "Vui tươi",
+      "reflection": "Niềm vui giản dị nào có thể được chia sẻ mà không cần phô trương?",
+      "practice": "Dành một lời khen cụ thể cho một người quanh mình."
+    },
+    {
+      "number": 59,
+      "name": "Hoán",
+      "bits": "010011",
+      "theme": "Giải tỏa",
+      "reflection": "Điều gì có thể tan bớt khi bạn nhìn nó từ một khoảng cách khác?",
+      "practice": "Đi bộ một đoạn hoặc thay đổi không gian trước khi quay lại."
+    },
+    {
+      "number": 60,
+      "name": "Tiết",
+      "bits": "110010",
+      "theme": "Chừng mực",
+      "reflection": "Giới hạn nào giúp bạn đi được lâu hơn?",
+      "practice": "Đặt một thời điểm dừng cho việc đang chiếm quá nhiều sức."
+    },
+    {
+      "number": 61,
+      "name": "Trung Phu",
+      "bits": "110011",
+      "theme": "Thành thật",
+      "reflection": "Bạn có đang nói điều mình thực sự biết?",
+      "practice": "Phân biệt điều bạn thấy, điều bạn nghe và điều bạn đang đoán."
+    },
+    {
+      "number": 62,
+      "name": "Tiểu Quá",
+      "bits": "001100",
+      "theme": "Chi tiết",
+      "reflection": "Một chi tiết nhỏ nào có thể làm người khác dễ chịu hơn?",
+      "practice": "Chăm một việc nhỏ đã bị bỏ sót trong ngày."
+    },
+    {
+      "number": 63,
+      "name": "Ký Tế",
+      "bits": "101010",
+      "theme": "Giữ nếp",
+      "reflection": "Sau khi hoàn thành, điều gì cần được giữ gìn?",
+      "practice": "Dành thời gian kiểm lại và duy trì điều vừa làm được."
+    },
+    {
+      "number": 64,
+      "name": "Vị Tế",
+      "bits": "010101",
+      "theme": "Dang dở",
+      "reflection": "Bạn có thể chấp nhận một phần việc còn dang dở mà vẫn đi tiếp không?",
+      "practice": "Ghi bước kế tiếp, sắp chỗ cho nó rồi cho phép mình nghỉ."
+    }
+  ]
+}

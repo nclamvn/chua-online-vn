@@ -1,0 +1,353 @@
+{
+  "created_at": "2026-11-04T05:23:47.731096+00:00",
+  "human_assets": {
+    "license": "CC0-1.0",
+    "license_url": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "core_asset_license_url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/master/LICENSE.ASSETS.md",
+    "application_code_reused": false,
+    "manifest": "/assets/r4/people/manifest.json",
+    "source_records": "research/r4/assets/system-subset-manifest.json",
+    "source_target_records": "research/r4/assets/targets-manifest.json"
+  },
+  "hero_asset": {
+    "path": "/assets/r4/lion-head.glb",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/lion_head",
+    "bytes": 1011604,
+    "triangles": 47214,
+    "use": "Weathered sculpted lion-head architectural ornament; not a Buddhist deity."
+  },
+  "files": [
+    {
+      "path": "public/assets/r4/statue.glb",
+      "bytes": 4024280,
+      "sha256": "a20636afe8bd31a5e17301768bae02c9d96a1bcbf0df22be412e52eeb67f9962"
+    },
+    {
+      "path": "public/assets/r4/statue-provenance.json",
+      "bytes": 2493,
+      "sha256": "43e4ce502f831ba1914c17e7e545d5e1046647e959a5f93dad7a0651f7c4ed00"
+    },
+    {
+      "path": "public/assets/r4/lion-head.glb",
+      "bytes": 1011604,
+      "sha256": "4b0798a2f4a5e2ca61e2bf5ac71651c35959a7080668f675c1ae484b2fbfb49f"
+    },
+    {
+      "path": "public/assets/r4/people/lan-person.glb",
+      "bytes": 285628,
+      "sha256": "b0047cbecc6b01fe4ce5932853f64f5237101f7d671a8111c575d988e6ae56f3"
+    },
+    {
+      "path": "public/assets/r4/people/mai-person-far.glb",
+      "bytes": 91144,
+      "sha256": "253759e37853fe4e4715fd94cfe2e02cf9c24a429e28a4311af6805043e8cd6e"
+    },
+    {
+      "path": "public/assets/r4/people/thao-person-far.glb",
+      "bytes": 90820,
+      "sha256": "6312d49ad6568a79726d5edca597052a0a9545b0bd830aa1a850e079addd385f"
+    },
+    {
+      "path": "public/assets/r4/people/skin-female-elder.jpg",
+      "bytes": 618439,
+      "sha256": "1f7a792aef736af7856dbed629fcb1b2e7f201872f7fbb7c899aacf57e9339d2"
+    },
+    {
+      "path": "public/assets/r4/people/minh-joints.json",
+      "bytes": 68515,
+      "sha256": "594233e0c7b2eed2b451c18b551b348251f2ad4aca27fe444c01a66c1ed583b6"
+    },
+    {
+      "path": "public/assets/r4/people/minh-hair.glb",
+      "bytes": 40160,
+      "sha256": "92ea8bad1b586ef7d197728607057ce2405d1eb244d2b36309bdb764a519d204"
+    },
+    {
+      "path": "public/assets/r4/people/skin-female-young.jpg",
+      "bytes": 444009,
+      "sha256": "e9a10383049c9fd9eb5731c9eb737a24eb3dc97489e3be65aa37df4b8787e24e"
+    },
+    {
+      "path": "public/assets/r4/people/lan-joints.json",
+      "bytes": 68206,
+      "sha256": "70c76248f1df83b9734ab67615f5242e40c3dce94be80867c43864efc2b2afe6"
+    },
+    {
+      "path": "public/assets/r4/people/mai-joints.json",
+      "bytes": 68504,
+      "sha256": "e75edfc1d9efa827c186dffd3bb26b07b32ea56160d38f30081d724a2999d26b"
+    },
+    {
+      "path": "public/assets/r4/people/thao-hair.glb",
+      "bytes": 71864,
+      "sha256": "5517f53d1756a2c029dfcfb9850b98fb067154bca065736015e8a58d0ed0d6de"
+    },
+    {
+      "path": "public/assets/r4/people/ha-head.glb",
+      "bytes": 58032,
+      "sha256": "c7d658d72a895aeb981d48e62b7a6983933464167422318db6298d371f9d8206"
+    },
+    {
+      "path": "public/assets/r4/people/minh-person-far.glb",
+      "bytes": 84328,
+      "sha256": "99b89b9153753bf94ccc899e1e5ddd678f3d169ad6222cfda670a8194161b7d9"
+    },
+    {
+      "path": "public/assets/r4/people/tuan-joints.json",
+      "bytes": 68586,
+      "sha256": "43b5199be93e27dac3b2bc83469afb6d75b97ba5d524cd8f86e4f17afcb0ea73"
+    },
+    {
+      "path": "public/assets/r4/people/ha-person-far.glb",
+      "bytes": 84324,
+      "sha256": "22f6726b52f14dd26b39edcd0711d048f9900d79a14247a7f7dabf5ec397635e"
+    },
+    {
+      "path": "public/assets/r4/people/thao-person.glb",
+      "bytes": 282052,
+      "sha256": "138352fc90ecac8356a6af1c9132d4c8afb762fa028f5065bf0749f36708b7d0"
+    },
+    {
+      "path": "public/assets/r4/people/thao-joints.json",
+      "bytes": 68285,
+      "sha256": "c4ff86f9dbd36db2fc59e8ef17306c69de5d512dc657de95ecfa9c34a93088d1"
+    },
+    {
+      "path": "public/assets/r4/people/lam-person-far.glb",
+      "bytes": 78364,
+      "sha256": "5a64f8f16bfb35dedde65ded963b656fc46593dd92ff66a79bdaf9984e179c26"
+    },
+    {
+      "path": "public/assets/r4/people/ha-outfit.glb",
+      "bytes": 31012,
+      "sha256": "9fbb21237f5cbbc79a31c63ce54441f35e2e65976c103c9b52e9078320145175"
+    },
+    {
+      "path": "public/assets/r4/people/skin-male-elder.jpg",
+      "bytes": 618300,
+      "sha256": "26f9f73b02ea74d8ba641e03d7394bfc0c242a69943a6e3df94bb10765bff84e"
+    },
+    {
+      "path": "public/assets/r4/people/skin-male-young.jpg",
+      "bytes": 479982,
+      "sha256": "7591b15e1bf91eb62f6a3313c536b19371962d4acb8443ef2541c53d16c6a481"
+    },
+    {
+      "path": "public/assets/r4/people/lan-head.glb",
+      "bytes": 58300,
+      "sha256": "1ba0a8a1931d5832d6cbd918131e1117369741b4011fae9c6700e7d7d2cf1ae2"
+    },
+    {
+      "path": "public/assets/r4/people/an-joints.json",
+      "bytes": 68572,
+      "sha256": "8f08c1ed452efb3999c72d93d40cff70724c701c2b166580d9cdf3972c92fca5"
+    },
+    {
+      "path": "public/assets/r4/people/skin-female-middle.jpg",
+      "bytes": 485906,
+      "sha256": "637edef19cddcc195e3c0d4dc76699950ababf6205891a62f7a6f538c55fcc88"
+    },
+    {
+      "path": "public/assets/r4/people/lam-outfit.glb",
+      "bytes": 103808,
+      "sha256": "925734353a9c342d80c93ffd54961c07aa6067eadeeaad21769aa162cab88884"
+    },
+    {
+      "path": "public/assets/r4/people/tuan-person.glb",
+      "bytes": 289620,
+      "sha256": "a74d7be36d5ff030f7532d7bc4b95ad4ef1e119f042ad57b57d372aaaabd3191"
+    },
+    {
+      "path": "public/assets/r4/people/ponytail01_diffuse.png",
+      "bytes": 1824198,
+      "sha256": "74a60d12a11f0538967cd0466d91066deb5180fab43febb1d5b31eba9af5baa7"
+    },
+    {
+      "path": "public/assets/r4/people/tuan-head.glb",
+      "bytes": 58012,
+      "sha256": "340ca0da9c39278ba0590b8388ec7c1f3d58e30f99bedc162fc79b79bd15227a"
+    },
+    {
+      "path": "public/assets/r4/people/an-person-far.glb",
+      "bytes": 84552,
+      "sha256": "45194f99f2771d518ebd9fbab1ed75158d2fa107eaa6755ef96ceebaa6a82e2e"
+    },
+    {
+      "path": "public/assets/r4/people/an-outfit.glb",
+      "bytes": 103528,
+      "sha256": "e5fd8c380c011280f071490efc45e36e4a5d445f8c6ff201f459baadec591634"
+    },
+    {
+      "path": "public/assets/r4/people/mai-person.glb",
+      "bytes": 282324,
+      "sha256": "4916a0ec1e4eef9c3eaa891eecb121677fd973e6b17cad85b04d6089a8b20480"
+    },
+    {
+      "path": "public/assets/r4/people/lan-person-far.glb",
+      "bytes": 86468,
+      "sha256": "1b0e92982a5e4bbbba67329241d9877c56c0781a42751492da545ad3143d808c"
+    },
+    {
+      "path": "public/assets/r4/people/mai-hair.glb",
+      "bytes": 71876,
+      "sha256": "d69a171ace40a1497536c66e4a8089d9e03da6566feeb7328c1598d9cb61b21a"
+    },
+    {
+      "path": "public/assets/r4/people/braid01_diffuse.png",
+      "bytes": 1211880,
+      "sha256": "e59abba6cf36290c3de3bac54570a8c7ff453b5986f175b76dfc2a8ec3ccdb8d"
+    },
+    {
+      "path": "public/assets/r4/people/an-head.glb",
+      "bytes": 57996,
+      "sha256": "41382f520269a149e6d3c481ec4f7b1eb7b21af1e03526f1bc4f5e0c8a616d78"
+    },
+    {
+      "path": "public/assets/r4/people/male_casualsuit01_normal.jpg",
+      "bytes": 140095,
+      "sha256": "f8bedac516f333b4eba3a610c303d23dcac6d4da10c264f7213c984b2a0e4251"
+    },
+    {
+      "path": "public/assets/r4/people/lam-joints.json",
+      "bytes": 68409,
+      "sha256": "6d74b01ffb1a53690bf444199b3f5c89149a2ed20643b14f5620810caa63f951"
+    },
+    {
+      "path": "public/assets/r4/people/female_casualsuit01_normal.jpg",
+      "bytes": 82148,
+      "sha256": "baa5fbf2ffce46b9f09aa52c925efa78d33a51693d81b6e3d3aa6d0d75d2d38d"
+    },
+    {
+      "path": "public/assets/r4/people/brown_eye.jpg",
+      "bytes": 24503,
+      "sha256": "98bd7379757bbcc8c6a526f4e7d7773b6aaab0ef5a31f6f1343ef7bf0790e812"
+    },
+    {
+      "path": "public/assets/r4/people/female_casualsuit01_diffuse.jpg",
+      "bytes": 165307,
+      "sha256": "fcd226b8d93ed9eba01d76a1dc678fa6faae9aa2e68a1ec40440e0b248cb1b0c"
+    },
+    {
+      "path": "public/assets/r4/people/minh-outfit.glb",
+      "bytes": 103540,
+      "sha256": "7a95824856c59c5561e2e1a44e12ac05eaf5c12b716df2a66e20de40933aed3a"
+    },
+    {
+      "path": "public/assets/r4/people/mai-outfit.glb",
+      "bytes": 30964,
+      "sha256": "30f2fd7d80c3ce112a1b240dc8f1dec36c9a539f5771f49458fc58dc979804e8"
+    },
+    {
+      "path": "public/assets/r4/people/an-person.glb",
+      "bytes": 289704,
+      "sha256": "e65cc7db4690b71503bcea3442e76ca3cb83ee1b66a7ba6839c6bb70ac12e65b"
+    },
+    {
+      "path": "public/assets/r4/people/tuan-outfit.glb",
+      "bytes": 103548,
+      "sha256": "b02addd77ad79d7b3beede004753a127b80954d5ad0fdeb874714105f391332e"
+    },
+    {
+      "path": "public/assets/r4/people/lan-hair.glb",
+      "bytes": 55468,
+      "sha256": "dbf5354af9d69a63b27f1351922cb3f742711aeeb2513d7d4c0624e88394bd5c"
+    },
+    {
+      "path": "public/assets/r4/people/thao-head.glb",
+      "bytes": 57988,
+      "sha256": "158744494f733de5a094e289c3c8e495a46b98e717a89e3a6f9cb332c7302035"
+    },
+    {
+      "path": "public/assets/r4/people/ha-hair.glb",
+      "bytes": 48744,
+      "sha256": "3e9115bd50a95de7dacf174513a2a344530fbec6c71059c09685a741769e9cbb"
+    },
+    {
+      "path": "public/assets/r4/people/lam-head.glb",
+      "bytes": 58132,
+      "sha256": "457742152a2557ed6a0dec7c366ce75ffac39e0306b9ca8a0ef8570f6b1148c0"
+    },
+    {
+      "path": "public/assets/r4/people/minh-person.glb",
+      "bytes": 289980,
+      "sha256": "d7e32f39b634907662ca4db6a37da8d83d0d858a77acd3e813486cde8d98faee"
+    },
+    {
+      "path": "public/assets/r4/people/manifest.json",
+      "bytes": 46728,
+      "sha256": "6d33d03f910d3cf933be9285118732e65c872a32984777577cbe3708bed82986"
+    },
+    {
+      "path": "public/assets/r4/people/minh-head.glb",
+      "bytes": 57992,
+      "sha256": "f8ca08a4c3bbcef899f165de7a789a87840bb46a08c1147a90c91f6655cee811"
+    },
+    {
+      "path": "public/assets/r4/people/tuan-person-far.glb",
+      "bytes": 84392,
+      "sha256": "708d7ca2204096344032129437eb74d51129dc18c3f610cb26557b468557f706"
+    },
+    {
+      "path": "public/assets/r4/people/thao-outfit.glb",
+      "bytes": 31004,
+      "sha256": "7ec6284e9aecfab7949be51e3c28f333f9510910fb518daddbd7a82019da1780"
+    },
+    {
+      "path": "public/assets/r4/people/male_casualsuit01_diffuse.jpg",
+      "bytes": 105405,
+      "sha256": "38a94065d1ee1b3633e7be141ea44cb488f2b614af43e771b2ece1631678e70e"
+    },
+    {
+      "path": "public/assets/r4/people/ha-joints.json",
+      "bytes": 68323,
+      "sha256": "0faa30355827c23cfcff4e3cd23f0bcc0880c98ec2a7e26887b93498f6bafdc4"
+    },
+    {
+      "path": "public/assets/r4/people/ha-person.glb",
+      "bytes": 280360,
+      "sha256": "91bade7ad17a4baf7b108e251461e83c2d11aef4c66f1df917a93175ae37f8b0"
+    },
+    {
+      "path": "public/assets/r4/people/lan-outfit.glb",
+      "bytes": 31052,
+      "sha256": "6ad3c9c6c7bc799b0a40447ceba0d83f25d0747a44e9193dc285b9733f0e4984"
+    },
+    {
+      "path": "public/assets/r4/people/mai-head.glb",
+      "bytes": 58084,
+      "sha256": "b294cb400c247559d0c8e421353c8e505d1faed78da27fa40313accecd4c1c07"
+    },
+    {
+      "path": "public/assets/r4/people/an-hair.glb",
+      "bytes": 40116,
+      "sha256": "2740fa6724aca06eecb7f6bc8f5fa18e094f138c7a574bb2378f6526d4102f3f"
+    },
+    {
+      "path": "public/assets/r4/people/short01_diffuse.png",
+      "bytes": 971920,
+      "sha256": "d5fa607b0e62f8c324e21387c739a5a80b32cb4d54cd1640aec02000ab3f2b04"
+    },
+    {
+      "path": "public/assets/r4/people/lam-person.glb",
+      "bytes": 274952,
+      "sha256": "8f1eaef0680e291b97d520e5c9791f74859109819f5e8a8dc00478a734ca0f03"
+    },
+    {
+      "path": "public/assets/r4/people/bob01_diffuse.png",
+      "bytes": 1391861,
+      "sha256": "75f937e4df4a972652835b83ba2c4ddcad21b8b3fd2ed6f43fe0cb02a0a687be"
+    },
+    {
+      "path": "public/assets/r4/people/tuan-hair.glb",
+      "bytes": 40160,
+      "sha256": "3527c9ee7f31f7f0c6ee0bd339253372f18cb8707cbb50ab7cfa194b620e8959"
+    },
+    {
+      "path": "public/assets/r4/people/skin-male-middle.jpg",
+      "bytes": 506746,
+      "sha256": "6107dfe5756f66f45f2fc0c6d32afc1ebd89f127cc98bbf609998a6c21262c44"
+    }
+  ],
+  "verification": "Structural GLB decode and exact rest skin matrix evaluation; no assertion of final animation or scene art quality."
+}

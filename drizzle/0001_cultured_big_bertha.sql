@@ -1,0 +1,1 @@
+CREATE INDEX `presence_expiry` ON `presence` (`updated_at`);

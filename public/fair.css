@@ -1,0 +1,137 @@
+.fair-entry.intro-map {
+ display:inline-flex;
+ align-items:center;
+ justify-content:center;
+ gap:7px;
+ background:#823b2c;
+ color:#fff3d9;
+ border:1px solid #e9bf7c;
+}
+.fair-entry svg,#market-open svg {width:17px;height:17px}
+#market-open {
+ display:inline-flex;
+ align-items:center;
+ gap:5px;
+ padding:4px 7px;
+ margin:-4px -6px -4px 0;
+ border:1px solid #f3cc8d77;
+ border-radius:3px;
+ color:#ffe7bb;
+ background:#713e2e;
+ white-space:nowrap;
+ font-size:.82em;
+}
+#market-open:hover,.fair-entry:hover {background:#984a34}
+.fair-intro {
+ padding:16px 17px;
+ margin:0 0 15px;
+ border:1px solid #baa888;
+ border-left:4px solid var(--stall-color,#934631);
+ background:#efe3cb;
+}
+.fair-intro > span {
+ color:#7a412f;
+ letter-spacing:.13em;
+ font-size:.68rem;
+ font-weight:700;
+}
+.fair-intro p {margin:6px 0 0}
+.fair-directory,.fair-stall-actions {display:grid;gap:8px;margin:0 0 12px}
+.fair-directory-item {
+ display:grid;
+ gap:3px;
+ text-align:left;
+ padding:11px 12px;
+ background:#f9f2e4;
+ color:#302a22;
+ border:1px solid #cdbb9b;
+ border-left:5px solid var(--stall-color);
+ border-radius:4px;
+}
+.fair-directory-item:hover {background:#f0dfbf}
+.fair-directory-item span {font-size:.78rem;line-height:1.4}
+.fair-pick {
+ text-align:left;
+ color:#322b22;
+ background:#f9f0df;
+ border:1px solid #bca888;
+ padding:11px 14px;
+ border-radius:4px;
+}
+.fair-pick[aria-pressed="true"]::after {content:'✓';float:right;color:#2b6351}
+.fair-saved {padding-left:1.4rem}
+.costume-heading {
+ margin:16px 0 6px;
+ font-family:Georgia,serif;
+ color:#773f2e;
+ font-size:1.1rem;
+}
+.costume-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.costume-choice {
+ display:flex;
+ align-items:center;
+ min-height:42px;
+ gap:8px;
+ color:#352d26;
+ background:#f6eddc;
+ text-align:left;
+ padding:6px 8px;
+ border:1px solid #cbb898;
+ border-radius:4px;
+ font-size:.82rem;
+}
+.costume-choice[aria-pressed="true"],.costume-choice:hover {background:#eedcba;border-color:#925b3c}
+.costume-choice i {
+ flex:0 0 22px;
+ height:22px;
+ border-radius:50%;
+ background:linear-gradient(135deg,var(--main) 60%,var(--trim) 60%);
+ border:1px solid #4b3c385a;
+}
+.profile-basics {margin:12px 0}
+.profile-basics summary {cursor:pointer;font-size:.82rem;color:#534334;margin-bottom:8px}
+#panel[data-kind="profile"] #profile-preview {margin:0 0 9px}
+@media (max-width:650px) {
+ #market-open {min-height:27px}
+ .intro-actions {flex-wrap:wrap}
+}
+#panel[data-kind="profile"] {width:min(680px,calc(100% - 50px))}
+.profile-layout {display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);gap:14px}
+.profile-inspector {align-self:start;position:sticky;top:0;z-index:1}
+#panel[data-kind="profile"] #profile-preview {height:320px}
+.profile-choices .costume-heading:first-child {margin-top:0}
+#profile-save {width:100%;margin:0}
+@media (max-width:700px) {
+ #panel[data-kind="profile"] {width:auto}
+ .profile-layout {display:block}
+ .profile-inspector {background:#ebe8dc;padding-bottom:9px;margin-bottom:10px}
+ #panel[data-kind="profile"] #profile-preview {height:min(205px,34dvh)}
+}
+@media (max-height:500px) {
+ .profile-inspector {position:static}
+ #panel[data-kind="profile"] #profile-preview {height:170px}
+}
+#panel[data-kind="profile"] .close {
+ z-index:3;
+ background:#f4efe0;
+ box-shadow:0 2px 8px #3b332c26;
+}
+.fair-program {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:0 0 14px}
+.fair-program .primary,.fair-program .secondary {margin:0;line-height:1.32}
+.fair-program .secondary {grid-column:1/-1}
+.fair-caption {
+ position:absolute;z-index:5;right:28px;top:155px;max-width:260px;
+ display:grid;gap:4px;padding:10px 13px;
+ color:#fff1d3;background:#3f291fe8;border:1px solid #d6aa68;border-radius:4px;
+ box-shadow:0 6px 22px #2d221b38;font-size:12px;line-height:1.45;pointer-events:none;
+}
+.fair-caption[hidden],body.focus-mode .fair-caption {display:none}
+.fair-caption strong {font-size:10px;color:#f1ca90;letter-spacing:.07em;text-transform:uppercase}
+@media(max-width:700px){
+ .fair-caption {top:174px;right:12px;max-width:176px;padding:8px 9px;font-size:10px}
+ .fair-caption strong {font-size:9px}
+}
+@media(max-height:500px) and (orientation:landscape){.fair-caption {top:90px}}
+@media(max-width:700px) and (orientation:portrait){
+ body:has(#scene3d[data-fair-tracking="true"]) .explore-rail {visibility:hidden}
+}

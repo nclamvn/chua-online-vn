@@ -1,0 +1,1912 @@
+{
+  "sources": [
+    {
+      "id": "niibook",
+      "url": "https://niibook.com/chuaonline",
+      "note": "Trang trực tiếp, chứng cứ giao diện hoặc mô tả; chưa kiểm backend",
+      "tier": "A",
+      "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+      "status": 200,
+      "snapshot": "niibook.html",
+      "sha256": "e0c59fdeb07773e7da8803bb5d1218a0918f7629de15785a93e636b01075679c"
+    },
+    {
+      "id": "dichua",
+      "url": "https://dichua.app/",
+      "note": "Trang trực tiếp, chưa kiểm người online thật",
+      "tier": "A",
+      "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+      "status": 200,
+      "snapshot": "dichua.html",
+      "sha256": "9acc2514b831ba84570d4b497d9e283d21fe6c07d576481a2df29e26c4ada41b"
+    },
+    {
+      "id": "orbit",
+      "url": "https://threejs.org/docs/pages/OrbitControls.html",
+      "note": "Tài liệu chính thức điều khiển camera",
+      "tier": "A",
+      "fetched_at": "2026-11-04T00:59:25.471845+00:00",
+      "status": 200,
+      "snapshot": "orbit.html",
+      "sha256": "38fff7b31fb9d91432e8739c48837c11c2d8d7e07b34c2580807f07d76aaea1f"
+    },
+    {
+      "id": "raycast",
+      "url": "https://threejs.org/docs/pages/Raycaster.html",
+      "note": "Tài liệu chính thức chọn vật thể",
+      "tier": "A",
+      "fetched_at": "2026-11-04T00:59:25.471945+00:00",
+      "status": 200,
+      "snapshot": "raycast.html",
+      "sha256": "ebcf1c3ef490f901bdb2e75340a7583493e249b9700f2ade070276256b50f5fd"
+    },
+    {
+      "id": "renderer",
+      "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+      "note": "Tài liệu chính thức WebGL2 và chẩn đoán",
+      "tier": "A",
+      "fetched_at": "2026-11-04T00:59:25.681578+00:00",
+      "status": 200,
+      "snapshot": "renderer.html",
+      "sha256": "5c09eb5393a10bdfccf2b90d90201899aa17f1f2a9aaed734ff30e7e43c14de1"
+    },
+    {
+      "id": "instancing",
+      "url": "https://threejs.org/docs/pages/InstancedMesh.html",
+      "note": "Tài liệu chính thức giảm draw calls",
+      "tier": "A",
+      "fetched_at": "2026-11-04T00:59:25.923880+00:00",
+      "status": 200,
+      "snapshot": "instancing.html",
+      "sha256": "cdb07d158d78307687b83c3a5fea64490a14224eb1227f72b364e572f98f4474"
+    },
+    {
+      "id": "sansa-beads",
+      "url": "https://sansatemple.com/",
+      "note": "DOM snapshot từ tương tác trình duyệt trực tiếp; không phải log backend.",
+      "tier": "A",
+      "status": 200,
+      "snapshot": "sansa-beads.txt",
+      "fetched_at": "2026-11-04T00:58:27.012701+00:00",
+      "sha256": "8595914a79dd6f8766f5492ec7f9d484ed10f044ef997fea5b07409ee1f78d60"
+    },
+    {
+      "id": "sansa-moktak",
+      "url": "https://sansatemple.com/",
+      "note": "DOM snapshot từ tương tác trình duyệt trực tiếp; không phải log backend.",
+      "tier": "A",
+      "status": 200,
+      "snapshot": "sansa-moktak.txt",
+      "fetched_at": "2026-11-04T00:58:15.545704+00:00",
+      "sha256": "2e4b418eaf99db86be00ab1b95317ab5a29c31855063b7eb4e6bc145a62e2892"
+    },
+    {
+      "id": "sansa-rooms",
+      "url": "https://sansatemple.com/",
+      "note": "DOM snapshot từ tương tác trình duyệt trực tiếp; không phải log backend.",
+      "tier": "A",
+      "status": 200,
+      "snapshot": "sansa-rooms.txt",
+      "fetched_at": "2026-11-04T00:58:44.585447+00:00",
+      "sha256": "b8941e8a015a621b59d39e6abf26dc6235a5bb18f0f639376dce4315aced568f"
+    },
+    {
+      "id": "sansa-settings",
+      "url": "https://sansatemple.com/",
+      "note": "DOM snapshot từ tương tác trình duyệt trực tiếp; không phải log backend.",
+      "tier": "A",
+      "status": 200,
+      "snapshot": "sansa-settings.txt",
+      "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+      "sha256": "7f20c3e1269bb3da134bea78a97da2cf5c378b726b7ed79b76b63a1f2a1f8db7"
+    }
+  ],
+  "claims": [
+    {
+      "entity": "sansa.movement",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "바닥 클릭 · WASD · 방향키로 이동",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.movement",
+      "field": "capability",
+      "value": "Click floor, WASD and arrow keys",
+      "evidence_span": "바닥 클릭 · WASD · 방향키로 이동",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.movement",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "바닥 클릭 · WASD · 방향키로 이동",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.camera",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "드래그로 둘러보기 · 휠로 확대/축소",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.camera",
+      "field": "capability",
+      "value": "Drag to orbit, wheel to zoom",
+      "evidence_span": "드래그로 둘러보기 · 휠로 확대/축소",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.camera",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "드래그로 둘러보기 · 휠로 확대/축소",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.gesture",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "합장을 누르면 두 손을 모아 인사해요.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.gesture",
+      "field": "capability",
+      "value": "Palms-together greeting",
+      "evidence_span": "합장을 누르면 두 손을 모아 인사해요.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.gesture",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "합장을 누르면 두 손을 모아 인사해요.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.channels",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "세 가지 소리를 내 취향대로",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.channels",
+      "field": "capability",
+      "value": "Separate ambient, chant and effects channels",
+      "evidence_span": "세 가지 소리를 내 취향대로",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.channels",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "세 가지 소리를 내 취향대로",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.background-audio",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "백그라운드 재생",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.background-audio",
+      "field": "capability",
+      "value": "Background playback toggle",
+      "evidence_span": "백그라운드 재생",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.background-audio",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "백그라운드 재생",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.liturgy-schedule",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "매일 05:00 · 18:00, 한국 시간",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Schedule label observed; no attendance at scheduled event during this session."
+    },
+    {
+      "entity": "sansa.liturgy-schedule",
+      "field": "capability",
+      "value": "Scheduled shared chanting, KST 05:00 and 18:00",
+      "evidence_span": "매일 05:00 · 18:00, 한국 시간",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Schedule label observed; no attendance at scheduled event during this session."
+    },
+    {
+      "entity": "sansa.liturgy-schedule",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "매일 05:00 · 18:00, 한국 시간",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Schedule label observed; no attendance at scheduled event during this session."
+    },
+    {
+      "entity": "sansa.license",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "공공누리 제1유형",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Attribution observed on site, not independent license review of every asset."
+    },
+    {
+      "entity": "sansa.license",
+      "field": "capability",
+      "value": "Museum attribution and public-use-license notice",
+      "evidence_span": "공공누리 제1유형",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Attribution observed on site, not independent license review of every asset."
+    },
+    {
+      "entity": "sansa.license",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "공공누리 제1유형",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:50:49.423105+00:00",
+        "snapshot": "sansa-settings.txt",
+        "source": "sansa"
+      },
+      "caveat": "Attribution observed on site, not independent license review of every asset."
+    },
+    {
+      "entity": "sansa.beads",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "위아래로 쓸거나 화살표 키와 휠로 돌려 보세요.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:27.012701+00:00",
+        "snapshot": "sansa-beads.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.beads",
+      "field": "capability",
+      "value": "Bead wheel offers swiping, arrows and wheel",
+      "evidence_span": "위아래로 쓸거나 화살표 키와 휠로 돌려 보세요.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:27.012701+00:00",
+        "snapshot": "sansa-beads.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.beads",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "위아래로 쓸거나 화살표 키와 휠로 돌려 보세요.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:27.012701+00:00",
+        "snapshot": "sansa-beads.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.wood",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "목탁 열기",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:15.545704+00:00",
+        "snapshot": "sansa-moktak.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.wood",
+      "field": "capability",
+      "value": "Moktak practice panel",
+      "evidence_span": "목탁 열기",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:15.545704+00:00",
+        "snapshot": "sansa-moktak.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.wood",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "목탁 열기",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:15.545704+00:00",
+        "snapshot": "sansa-moktak.txt",
+        "source": "sansa"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "sansa.rooms",
+      "field": "product",
+      "value": "Sansa",
+      "evidence_span": "산사 서버 목록",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:44.585447+00:00",
+        "snapshot": "sansa-rooms.txt",
+        "source": "sansa"
+      },
+      "caveat": "Room list observed; labels and counts do not prove backend concurrency or independent users."
+    },
+    {
+      "entity": "sansa.rooms",
+      "field": "capability",
+      "value": "Room selector list",
+      "evidence_span": "산사 서버 목록",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:44.585447+00:00",
+        "snapshot": "sansa-rooms.txt",
+        "source": "sansa"
+      },
+      "caveat": "Room list observed; labels and counts do not prove backend concurrency or independent users."
+    },
+    {
+      "entity": "sansa.rooms",
+      "field": "evidence_kind",
+      "value": "observed-ui",
+      "evidence_span": "산사 서버 목록",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://sansatemple.com/",
+        "fetched_at": "2026-11-04T00:58:44.585447+00:00",
+        "snapshot": "sansa-rooms.txt",
+        "source": "sansa"
+      },
+      "caveat": "Room list observed; labels and counts do not prove backend concurrency or independent users."
+    },
+    {
+      "entity": "niibook.automation",
+      "field": "product",
+      "value": "Niibook",
+      "evidence_span": "Tự động gõ mõ",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.automation",
+      "field": "capability",
+      "value": "Auto moktak and bow switches displayed",
+      "evidence_span": "Tự động gõ mõ",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.automation",
+      "field": "evidence_kind",
+      "value": "advertised-html",
+      "evidence_span": "Tự động gõ mõ",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.spaces",
+      "field": "product",
+      "value": "Niibook",
+      "evidence_span": "CHUYỂN KHÔNG GIAN TỊNH THẤT",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.spaces",
+      "field": "capability",
+      "value": "Multiple meditation spaces displayed",
+      "evidence_span": "CHUYỂN KHÔNG GIAN TỊNH THẤT",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.spaces",
+      "field": "evidence_kind",
+      "value": "advertised-html",
+      "evidence_span": "CHUYỂN KHÔNG GIAN TỊNH THẤT",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.community",
+      "field": "product",
+      "value": "Niibook",
+      "evidence_span": "Cộng đồng Đạo tràng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.community",
+      "field": "capability",
+      "value": "Community and account controls displayed",
+      "evidence_span": "Cộng đồng Đạo tràng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "niibook.community",
+      "field": "evidence_kind",
+      "value": "advertised-html",
+      "evidence_span": "Cộng đồng Đạo tràng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://niibook.com/chuaonline",
+        "fetched_at": "2026-11-04T00:59:25.471078+00:00",
+        "snapshot": "niibook.html",
+        "source": "niibook"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "dichua.navigation",
+      "field": "product",
+      "value": "dichua.app",
+      "evidence_span": "Chạm sàn để tới đó",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "dichua.navigation",
+      "field": "capability",
+      "value": "Floor click, E key and drag instructions",
+      "evidence_span": "Chạm sàn để tới đó",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "dichua.navigation",
+      "field": "evidence_kind",
+      "value": "advertised-html",
+      "evidence_span": "Chạm sàn để tới đó",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "dichua.gamification",
+      "field": "product",
+      "value": "dichua.app",
+      "evidence_span": "Cửa hàng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "dichua.gamification",
+      "field": "capability",
+      "value": "Inventory, store and rankings displayed",
+      "evidence_span": "Cửa hàng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "dichua.gamification",
+      "field": "evidence_kind",
+      "value": "advertised-html",
+      "evidence_span": "Cửa hàng",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://dichua.app/",
+        "fetched_at": "2026-11-04T00:59:25.471698+00:00",
+        "snapshot": "dichua.html",
+        "source": "dichua"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.orbit",
+      "field": "product",
+      "value": "Three.js",
+      "evidence_span": "Orbit controls allow the camera to orbit around a target.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/OrbitControls.html",
+        "fetched_at": "2026-11-04T00:59:25.471845+00:00",
+        "snapshot": "orbit.html",
+        "source": "orbit"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.orbit",
+      "field": "capability",
+      "value": "Orbit, zoom and pan camera controls",
+      "evidence_span": "Orbit controls allow the camera to orbit around a target.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/OrbitControls.html",
+        "fetched_at": "2026-11-04T00:59:25.471845+00:00",
+        "snapshot": "orbit.html",
+        "source": "orbit"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.orbit",
+      "field": "evidence_kind",
+      "value": "official-docs",
+      "evidence_span": "Orbit controls allow the camera to orbit around a target.",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/OrbitControls.html",
+        "fetched_at": "2026-11-04T00:59:25.471845+00:00",
+        "snapshot": "orbit.html",
+        "source": "orbit"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.picking",
+      "field": "product",
+      "value": "Three.js",
+      "evidence_span": "mouse picking",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/Raycaster.html",
+        "fetched_at": "2026-11-04T00:59:25.471945+00:00",
+        "snapshot": "raycast.html",
+        "source": "raycast"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.picking",
+      "field": "capability",
+      "value": "Raycasting supports mouse picking",
+      "evidence_span": "mouse picking",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/Raycaster.html",
+        "fetched_at": "2026-11-04T00:59:25.471945+00:00",
+        "snapshot": "raycast.html",
+        "source": "raycast"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.picking",
+      "field": "evidence_kind",
+      "value": "official-docs",
+      "evidence_span": "mouse picking",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/Raycaster.html",
+        "fetched_at": "2026-11-04T00:59:25.471945+00:00",
+        "snapshot": "raycast.html",
+        "source": "raycast"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.webgl",
+      "field": "product",
+      "value": "Three.js",
+      "evidence_span": "WebGL 2",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+        "fetched_at": "2026-11-04T00:59:25.681578+00:00",
+        "snapshot": "renderer.html",
+        "source": "renderer"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.webgl",
+      "field": "capability",
+      "value": "WebGLRenderer requires WebGL2",
+      "evidence_span": "WebGL 2",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+        "fetched_at": "2026-11-04T00:59:25.681578+00:00",
+        "snapshot": "renderer.html",
+        "source": "renderer"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.webgl",
+      "field": "evidence_kind",
+      "value": "official-docs",
+      "evidence_span": "WebGL 2",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+        "fetched_at": "2026-11-04T00:59:25.681578+00:00",
+        "snapshot": "renderer.html",
+        "source": "renderer"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.instancing",
+      "field": "product",
+      "value": "Three.js",
+      "evidence_span": "reduce the number of draw calls",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/InstancedMesh.html",
+        "fetched_at": "2026-11-04T00:59:25.923880+00:00",
+        "snapshot": "instancing.html",
+        "source": "instancing"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.instancing",
+      "field": "capability",
+      "value": "Instanced meshes reduce draw calls",
+      "evidence_span": "reduce the number of draw calls",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/InstancedMesh.html",
+        "fetched_at": "2026-11-04T00:59:25.923880+00:00",
+        "snapshot": "instancing.html",
+        "source": "instancing"
+      },
+      "caveat": "Backend behavior not independently audited."
+    },
+    {
+      "entity": "three.instancing",
+      "field": "evidence_kind",
+      "value": "official-docs",
+      "evidence_span": "reduce the number of draw calls",
+      "extraction": "normalized",
+      "tier": "A",
+      "capture": {
+        "url": "https://threejs.org/docs/pages/InstancedMesh.html",
+        "fetched_at": "2026-11-04T00:59:25.923880+00:00",
+        "snapshot": "instancing.html",
+        "source": "instancing"
+      },
+      "caveat": "Backend behavior not independently audited."
+    }
+  ],
+  "registry": {
+    "aggregates": {
+      "cells_by_state": {
+        "null": 38,
+        "sourced": 57
+      },
+      "coverage_pct": 100.0,
+      "n_entities": 19,
+      "rollup": {
+        "Niibook": 3,
+        "Sansa": 10,
+        "Three.js": 4,
+        "dichua.app": 2
+      },
+      "rollup_field": "product",
+      "universe_estimate": 19
+    },
+    "registry": {
+      "dichua.gamification": {
+        "entity_type": "dichua.app",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "Inventory, store and rankings displayed"
+              }
+            ],
+            "state": "sourced",
+            "value": "Inventory, store and rankings displayed"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "advertised-html"
+              }
+            ],
+            "state": "sourced",
+            "value": "advertised-html"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "dichua.app"
+              }
+            ],
+            "state": "sourced",
+            "value": "dichua.app"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "dichua.navigation": {
+        "entity_type": "dichua.app",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "Floor click, E key and drag instructions"
+              }
+            ],
+            "state": "sourced",
+            "value": "Floor click, E key and drag instructions"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "advertised-html"
+              }
+            ],
+            "state": "sourced",
+            "value": "advertised-html"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "dichua",
+                "tier": "A",
+                "value": "dichua.app"
+              }
+            ],
+            "state": "sourced",
+            "value": "dichua.app"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "niibook.automation": {
+        "entity_type": "Niibook",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Auto moktak and bow switches displayed"
+              }
+            ],
+            "state": "sourced",
+            "value": "Auto moktak and bow switches displayed"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "advertised-html"
+              }
+            ],
+            "state": "sourced",
+            "value": "advertised-html"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Niibook"
+              }
+            ],
+            "state": "sourced",
+            "value": "Niibook"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "niibook.community": {
+        "entity_type": "Niibook",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Community and account controls displayed"
+              }
+            ],
+            "state": "sourced",
+            "value": "Community and account controls displayed"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "advertised-html"
+              }
+            ],
+            "state": "sourced",
+            "value": "advertised-html"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Niibook"
+              }
+            ],
+            "state": "sourced",
+            "value": "Niibook"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "niibook.spaces": {
+        "entity_type": "Niibook",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Multiple meditation spaces displayed"
+              }
+            ],
+            "state": "sourced",
+            "value": "Multiple meditation spaces displayed"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "advertised-html"
+              }
+            ],
+            "state": "sourced",
+            "value": "advertised-html"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "niibook",
+                "tier": "A",
+                "value": "Niibook"
+              }
+            ],
+            "state": "sourced",
+            "value": "Niibook"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.background-audio": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Background playback toggle"
+              }
+            ],
+            "state": "sourced",
+            "value": "Background playback toggle"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.beads": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Bead wheel offers swiping, arrows and wheel"
+              }
+            ],
+            "state": "sourced",
+            "value": "Bead wheel offers swiping, arrows and wheel"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.camera": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Drag to orbit, wheel to zoom"
+              }
+            ],
+            "state": "sourced",
+            "value": "Drag to orbit, wheel to zoom"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.channels": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Separate ambient, chant and effects channels"
+              }
+            ],
+            "state": "sourced",
+            "value": "Separate ambient, chant and effects channels"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.gesture": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Palms-together greeting"
+              }
+            ],
+            "state": "sourced",
+            "value": "Palms-together greeting"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.license": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Museum attribution and public-use-license notice"
+              }
+            ],
+            "state": "sourced",
+            "value": "Museum attribution and public-use-license notice"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.liturgy-schedule": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Scheduled shared chanting, KST 05:00 and 18:00"
+              }
+            ],
+            "state": "sourced",
+            "value": "Scheduled shared chanting, KST 05:00 and 18:00"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.movement": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Click floor, WASD and arrow keys"
+              }
+            ],
+            "state": "sourced",
+            "value": "Click floor, WASD and arrow keys"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.rooms": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Room selector list"
+              }
+            ],
+            "state": "sourced",
+            "value": "Room selector list"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "sansa.wood": {
+        "entity_type": "Sansa",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Moktak practice panel"
+              }
+            ],
+            "state": "sourced",
+            "value": "Moktak practice panel"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "observed-ui"
+              }
+            ],
+            "state": "sourced",
+            "value": "observed-ui"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "sansa",
+                "tier": "A",
+                "value": "Sansa"
+              }
+            ],
+            "state": "sourced",
+            "value": "Sansa"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "three.instancing": {
+        "entity_type": "Three.js",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "instancing",
+                "tier": "A",
+                "value": "Instanced meshes reduce draw calls"
+              }
+            ],
+            "state": "sourced",
+            "value": "Instanced meshes reduce draw calls"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "instancing",
+                "tier": "A",
+                "value": "official-docs"
+              }
+            ],
+            "state": "sourced",
+            "value": "official-docs"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "instancing",
+                "tier": "A",
+                "value": "Three.js"
+              }
+            ],
+            "state": "sourced",
+            "value": "Three.js"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "three.orbit": {
+        "entity_type": "Three.js",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "orbit",
+                "tier": "A",
+                "value": "Orbit, zoom and pan camera controls"
+              }
+            ],
+            "state": "sourced",
+            "value": "Orbit, zoom and pan camera controls"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "orbit",
+                "tier": "A",
+                "value": "official-docs"
+              }
+            ],
+            "state": "sourced",
+            "value": "official-docs"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "orbit",
+                "tier": "A",
+                "value": "Three.js"
+              }
+            ],
+            "state": "sourced",
+            "value": "Three.js"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "three.picking": {
+        "entity_type": "Three.js",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "raycast",
+                "tier": "A",
+                "value": "Raycasting supports mouse picking"
+              }
+            ],
+            "state": "sourced",
+            "value": "Raycasting supports mouse picking"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "raycast",
+                "tier": "A",
+                "value": "official-docs"
+              }
+            ],
+            "state": "sourced",
+            "value": "official-docs"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "raycast",
+                "tier": "A",
+                "value": "Three.js"
+              }
+            ],
+            "state": "sourced",
+            "value": "Three.js"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      },
+      "three.webgl": {
+        "entity_type": "Three.js",
+        "fields": {
+          "backend_verified": {
+            "state": "null",
+            "value": null
+          },
+          "capability": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "renderer",
+                "tier": "A",
+                "value": "WebGLRenderer requires WebGL2"
+              }
+            ],
+            "state": "sourced",
+            "value": "WebGLRenderer requires WebGL2"
+          },
+          "evidence_kind": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "renderer",
+                "tier": "A",
+                "value": "official-docs"
+              }
+            ],
+            "state": "sourced",
+            "value": "official-docs"
+          },
+          "product": {
+            "claims": [
+              {
+                "extraction": "normalized",
+                "source": "renderer",
+                "tier": "A",
+                "value": "Three.js"
+              }
+            ],
+            "state": "sourced",
+            "value": "Three.js"
+          },
+          "retention_verified": {
+            "state": "null",
+            "value": null
+          }
+        }
+      }
+    }
+  }
+}

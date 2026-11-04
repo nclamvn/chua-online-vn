@@ -1,0 +1,85 @@
+{
+  "release": "R3 shared sanctuary",
+  "verified_at": "2026-11-04T04:50:54.848764+00:00",
+  "network": {
+    "transport": "authoritative D1 + HTTP state exchange, not WebSockets",
+    "visible_interval_ms": 350,
+    "background_interval_ms": 1800,
+    "rooms": 3,
+    "capacity_per_room": 12,
+    "lease_ms": 15000,
+    "interpolation": true,
+    "interval_semantics": "Target start-to-start; one in-flight request; network-dependent achieved rate."
+  },
+  "actual_local_api": {
+    "date": "2026-11-04T04:55:44.881Z",
+    "base": "http://127.0.0.1:4173",
+    "checks": [
+      "Independent server-issued sessions",
+      "Movement visible across sessions",
+      "Greeting propagated",
+      "Reject out-of-world coordinates",
+      "Reject another session token",
+      "Server corrects impossible speed",
+      "Reject stale sequence",
+      "Atomic seat race: exactly one meditation reservation",
+      "Departure releases occupied seat",
+      "14 simultaneous joins: 12 admitted, 2 rejected",
+      "Lease expires after 15 seconds without heartbeat",
+      "Fresh join succeeds after expiry"
+    ],
+    "rttMs": {
+      "samples": 63,
+      "p50": 9.700291000000107,
+      "p95": 45.11220899999989
+    },
+    "scope": "Local HTTP integration against actual D1. Not a WAN load test, browser FPS test, or multi-account authorization test."
+  },
+  "browser_verification": {
+    "sessions": 2,
+    "environment": "Same computer and account, independent browser sessions; actual local Worker/D1",
+    "observed": [
+      "Remote walking position",
+      "Remote greeting",
+      "Remote meditation with seat ID",
+      "Room switching removes old participant",
+      "390x844 no horizontal/page overflow",
+      "Light quality30fps on host at390x844; about1.22M rendered triangles"
+    ],
+    "notes": "Desktop samples54-60fps on host after assets loaded; not representative-device or WAN performance certification."
+  },
+  "pathfinding": "33 routes from courtyard/entrance to every seat checked for obstacle clearance",
+  "assets": {
+    "license": "Poly Haven/MakeHuman graphics CC0; Three.js and meshopt MIT",
+    "near_tree_bytes": 8215640,
+    "near_tree_triangles": 109509,
+    "far_tree_bytes": 1346572,
+    "far_tree_triangles": 19438,
+    "provenance": "assets/r3/asset-provenance.json"
+  },
+  "limitations": [
+    "No claim of100 users, WebSocket synchronization, or performance on a real low-end phone",
+    "No distinct-account authorization or public-abuse/load test",
+    "Cultural/ritual content not reviewed by a Buddhist specialist",
+    "No measured user-preference or photorealistic parity claim",
+    "No30-minute build claim; exact R3 wall time not measured"
+  ],
+  "access": "public, explicitly approved by owner",
+  "production_smoke": {
+    "date": "2026-11-04T04:54:26.122Z",
+    "base": "https://hien-an-viet.quynhtran0805.chatgpt.site",
+    "access": "Public confirmed by anonymous HTTP calls, without Site bearer token/cookies",
+    "checks": [
+      "Two anonymous sessions join deployed Worker/D1",
+      "Independent deployed session observes greeting",
+      "Deployed seat reservation and meditation observed remotely",
+      "Anonymous departure removes actor on deployed server"
+    ],
+    "rtt": {
+      "samples": 19,
+      "p50": 239.230458,
+      "p95": 404.38354200000003
+    },
+    "scope": "One machine/network, small sequential smoke test; not simultaneous capacity/load or global latency certification."
+  }
+}

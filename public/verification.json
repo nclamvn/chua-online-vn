@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-11-04T00:44:13.396360+00:00",
+  "status": "Các luồng đã ghi nhận đạt trong phạm vi trình duyệt thử; còn giới hạn bên dưới",
+  "method": "Scripted real browser interactions through cua_repl; manually curated observations, not a reusable automated suite.",
+  "environment": "Codex in-app browser on macOS; desktop 1280x720, responsive viewport 390x844. No real mobile hardware test.",
+  "checks": [
+    {
+      "name": "Desktop 1280x720 và mobile 390x844",
+      "result": "Đã quan sát bố cục và popup bằng ảnh chụp trình duyệt"
+    },
+    {
+      "name": "Vào sân và di chuyển",
+      "result": "Đã vào sân; ArrowRight đổi vị trí nhân vật từ mặc định 45% sang 52%."
+    },
+    {
+      "name": "Tràng hạt: đếm, tải lại và giới hạn",
+      "result": "Đã thấy 1 hạt sau mở lại, tải lại giữ số; 109 thao tác dừng ở 108; reset về 0"
+    },
+    {
+      "name": "Hoa đăng: thả và lưu tùy chọn",
+      "result": "Đã thấy phần tử đèn xuất hiện; mở lại đọc được lời nhắn đã chọn giữ"
+    },
+    {
+      "name": "Lời nhắn có ký tự HTML",
+      "result": "Được hiển thị như văn bản; không tạo phần tử img"
+    },
+    {
+      "name": "Popup: vòng focus và Escape",
+      "result": "Tab từ nút cuối về đóng; Shift+Tab từ đóng về nút cuối; Escape đóng"
+    },
+    {
+      "name": "Âm thanh và chuông",
+      "result": "Bật/tắt đổi aria-pressed; thỉnh chuông có phản hồi, không có lỗi console; chưa thẩm âm đầu ra"
+    },
+    {
+      "name": "Ngồi yên: chạy và tạm dừng",
+      "result": "Đã thấy tạm dừng ở 00:56; phiên một phút chạy tới 00:00, hiện Cảm ơn bạn đã dừng lại và nút Thực hành lại."
+    },
+    {
+      "name": "Tùy chỉnh đêm và giảm chuyển động",
+      "result": "Select hiển thị Đêm tĩnh và checkbox được chọn"
+    },
+    {
+      "name": "Xóa dữ liệu thử",
+      "result": "Sau xóa, mở lại hoa đăng không còn mục lời nhắn đã giữ (0 phần tử)."
+    },
+    {
+      "name": "Refinery",
+      "result": "27 claims, 11 entities; auditor/idempotent passed; 7 applicable gates rejected injected faults"
+    },
+    {
+      "name": "Chế độ ngắm cảnh",
+      "result": "AX chỉ còn cảnh và nút hiện giao diện; Escape khôi phục điều khiển."
+    },
+    {
+      "name": "Mobile tràn ngang",
+      "result": "documentElement.scrollWidth không vượt innerWidth ở 390px."
+    }
+  ],
+  "not_tested": [
+    "Real Android/iOS device",
+    "Screen reader",
+    "Large traffic or multiplayer",
+    "Cross-browser compatibility",
+    "User preference A/B",
+    "Retention or wellbeing outcomes",
+    "Independent direct-LLM baseline",
+    "Audio perceptual quality",
+    "Chuyển tab tự tạm dừng: đã triển khai và kiểm mã, chưa tạo phép thử chuyển tab độc lập."
+  ],
+  "failures_and_repairs": [
+    "109-click QA call timed out after reaching 107. Reattached tab, clicked twice and observed 108 cap.",
+    "Initial compressed Znews response required gzip decoding; recaptured and verified fingerprints.",
+    "Early viewport screenshot was stale; read actual 390x844 dimensions and recaptured.",
+    "Static aria-labelledby check needed to account for panel-title inserted when dialog opens."
+  ]
+}
